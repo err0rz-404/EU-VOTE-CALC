@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -79,8 +80,87 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Imgs\Flags\" />
+    <None Include="Imgs\Flags\Austria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Belgium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Bulgaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Croatia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Cyprus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Czech Republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Denmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Estonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Finland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\France.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Greece.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Hungary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Ireland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Latvia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Lithuania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Luxembourg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Malta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Netherlands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Romania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Slovakia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Slovenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Spain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imgs\Flags\Sweden.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
