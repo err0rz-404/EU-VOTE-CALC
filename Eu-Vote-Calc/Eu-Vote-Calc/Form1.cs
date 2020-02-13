@@ -21,5 +21,20 @@ namespace Eu_Vote_Calc
         {
 
         }
+
+        private void Member_States_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
