@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eu-Vote-Calc", "Eu-Vote-Calc\Eu-Vote-Calc.csproj", "{93D0AB37-AA2B-4866-BCE6-FD3123D5E160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93D0AB37-AA2B-4866-BCE6-FD3123D5E160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D0AB37-AA2B-4866-BCE6-FD3123D5E160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D0AB37-AA2B-4866-BCE6-FD3123D5E160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D0AB37-AA2B-4866-BCE6-FD3123D5E160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D91543-037F-4205-95F1-B6BAB4F93AFA}
+	EndGlobalSection
+EndGlobal
