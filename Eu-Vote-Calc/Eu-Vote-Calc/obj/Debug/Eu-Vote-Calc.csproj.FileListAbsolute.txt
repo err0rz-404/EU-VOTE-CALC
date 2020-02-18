@@ -16,3 +16,12 @@ C:\Users\computing\Documents\GitHub\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\D
 C:\Users\computing\Documents\GitHub\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csproj.GenerateResource.cache
 C:\Users\computing\Documents\GitHub\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.exe
 C:\Users\computing\Documents\GitHub\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.pdb
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe.config
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.pdb
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csprojAssemblyReference.cache
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Properties.Resources.resources
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csproj.GenerateResource.cache
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.exe
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.pdb
+D:\Uni work\Assigments\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Form1.resources
