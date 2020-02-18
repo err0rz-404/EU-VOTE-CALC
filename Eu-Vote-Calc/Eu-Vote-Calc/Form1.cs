@@ -31,6 +31,8 @@ namespace Eu_Vote_Calc
         {
             
             InitializeComponent();
+
+            // Tom H test comment.
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
