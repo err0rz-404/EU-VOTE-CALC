@@ -164,5 +164,11 @@
   <ItemGroup>
     <None Include="Imgs\Flags\Sweden.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imgs\Arrow\abstain-removebg-preview.png" />
+    <Content Include="Imgs\Arrow\blue.png" />
+    <Content Include="Imgs\Arrow\red-removebg-preview.png" />
+    <None Include="Resources\upvote.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
