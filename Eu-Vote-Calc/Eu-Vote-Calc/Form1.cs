@@ -51,16 +51,16 @@ namespace Eu_Vote_Calc
         }
         public void Loading()
         {
-            box.Add(chkAustria);
-            box.Add(chkBelgium);
-            box.Add(chkBulgaria);
-            box.Add(chkCrotia);
-            box.Add(chkCyprus);
-            box.Add(chkCzech_Republic);
-            box.Add(chkEstonia);
-            box.Add(chkDenmark);
-            box.Add(chkFinland);
-            box.Add(chkFrance);
+            box.Add(Austria);
+            box.Add(checkBox1);
+            box.Add(checkBox2);
+            box.Add(checkBox3);
+            box.Add(checkBox4);
+            box.Add(checkBox5);
+            box.Add(checkBox6);
+            box.Add(checkBox7);
+            box.Add(checkBox8);
+            box.Add(checkBox9);
             box.Add(checkBox10);
             box.Add(checkBox11);
             box.Add(checkBox12);
@@ -92,7 +92,19 @@ namespace Eu_Vote_Calc
             }
 
         }
+        void canVote()
+        {
+            int canVoteAmount = 0;
 
+            for (int i = 0; i < 26; i++)
+            {
+                countri[i].Part = box[i].Checked;
+                if (box[i].Checked == true)
+                {
+                    canVoteAmount++;
+                }
+            }
+        }
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
