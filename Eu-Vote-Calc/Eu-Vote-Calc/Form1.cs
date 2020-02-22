@@ -18,8 +18,8 @@ namespace Eu_Vote_Calc
 
     public partial class Form1 : Form
     {
-        List<Countries> countri = new List<Countries>();
         public List<CheckBox> box = new List<CheckBox>();
+        List<Countries> countri = new List<Countries>();
 
         [Serializable]
         class Countries
@@ -31,36 +31,22 @@ namespace Eu_Vote_Calc
         }
         public Form1()
         {
-            
+
             InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
-
-        public void button1_Click(object sender, EventArgs e)
-        {
-            Loading();
-        }
-        public void Loading()
-        {
-            box.Add(Austria);
-            box.Add(checkBox1);
-            box.Add(checkBox2);
-            box.Add(checkBox3);
-            box.Add(checkBox4);
-            box.Add(checkBox5);
-            box.Add(checkBox6);
-            box.Add(checkBox7);
-            box.Add(checkBox8);
-            box.Add(checkBox9);
+            box.Add(chkAustria);
+            box.Add(chkBelgium);
+            box.Add(chkBulgaria);
+            box.Add(chkCrotia);
+            box.Add(chkCyprus);
+            box.Add(chkCzech_Republic);
+            box.Add(chkEstonia);
+            box.Add(chkDenmark);
+            box.Add(chkFinland);
+            box.Add(chkFrance);
             box.Add(checkBox10);
             box.Add(checkBox11);
             box.Add(checkBox12);
@@ -79,20 +65,20 @@ namespace Eu_Vote_Calc
             box.Add(checkBox26);
 
             int x = 0;
-            while (x < 27){
+            while (x < 27)
+            {
                 IFormatter formatter = new BinaryFormatter();
 
                 Stream stream = new FileStream((x.ToString() + ".txt"), FileMode.Open, FileAccess.Read);
 
                 Countries cs = (Countries)formatter.Deserialize(stream);
                 countri.Add(cs);
-                Console.WriteLine(cs.name);
                 stream.Close();
                 x = x + 1;
             }
-
         }
-        void canVote()
+
+        private void canVote(object sender, EventArgs e)
         {
             int canVoteAmount = 0;
 
@@ -104,20 +90,8 @@ namespace Eu_Vote_Calc
                     canVoteAmount++;
                 }
             }
-        }
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
+            textBox1.Clear();
+            textBox1.Text = "amount of votes that can be done " + canVoteAmount.ToString();
         }
     }
 }
