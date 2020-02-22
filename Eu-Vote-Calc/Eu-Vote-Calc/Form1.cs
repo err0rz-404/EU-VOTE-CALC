@@ -18,7 +18,9 @@ namespace Eu_Vote_Calc
 
     public partial class Form1 : Form
     {
-       
+        List<Countries> countri = new List<Countries>();
+        public List<CheckBox> box = new List<CheckBox>();
+
         [Serializable]
         class Countries
         {
@@ -49,6 +51,33 @@ namespace Eu_Vote_Calc
         }
         public void Loading()
         {
+            box.Add(chkAustria);
+            box.Add(chkBelgium);
+            box.Add(chkBulgaria);
+            box.Add(chkCrotia);
+            box.Add(chkCyprus);
+            box.Add(chkCzech_Republic);
+            box.Add(chkEstonia);
+            box.Add(chkDenmark);
+            box.Add(chkFinland);
+            box.Add(chkFrance);
+            box.Add(checkBox10);
+            box.Add(checkBox11);
+            box.Add(checkBox12);
+            box.Add(checkBox13);
+            box.Add(checkBox14);
+            box.Add(checkBox15);
+            box.Add(checkBox16);
+            box.Add(checkBox17);
+            box.Add(checkBox18);
+            box.Add(checkBox19);
+            box.Add(checkBox20);
+            box.Add(checkBox21);
+            box.Add(checkBox23);
+            box.Add(checkBox24);
+            box.Add(checkBox25);
+            box.Add(checkBox26);
+
             int x = 0;
             while (x < 27){
                 IFormatter formatter = new BinaryFormatter();
@@ -56,7 +85,7 @@ namespace Eu_Vote_Calc
                 Stream stream = new FileStream((x.ToString() + ".txt"), FileMode.Open, FileAccess.Read);
 
                 Countries cs = (Countries)formatter.Deserialize(stream);
-
+                countri.Add(cs);
                 Console.WriteLine(cs.name);
                 stream.Close();
                 x = x + 1;
