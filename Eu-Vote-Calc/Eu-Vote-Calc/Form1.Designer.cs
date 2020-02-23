@@ -29,44 +29,68 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.comboBox26 = new System.Windows.Forms.ComboBox();
+            this.comboBox24 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox23 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox22 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox21 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox20 = new System.Windows.Forms.ComboBox();
             this.chkAustria = new System.Windows.Forms.CheckBox();
+            this.comboBox19 = new System.Windows.Forms.ComboBox();
             this.chkBelgium = new System.Windows.Forms.CheckBox();
+            this.comboBox18 = new System.Windows.Forms.ComboBox();
             this.chkBulgaria = new System.Windows.Forms.CheckBox();
+            this.comboBox17 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
+            this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.button29 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
+            this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
+            this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
+            this.comboBox13 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
+            this.comboBox12 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
+            this.comboBox11 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
             this.chkCrotia = new System.Windows.Forms.CheckBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             this.chkCyprus = new System.Windows.Forms.CheckBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.chkCzech_Republic = new System.Windows.Forms.CheckBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.chkDenmark = new System.Windows.Forms.CheckBox();
             this.chkEstonia = new System.Windows.Forms.CheckBox();
             this.chkFinland = new System.Windows.Forms.CheckBox();
@@ -129,6 +153,9 @@
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.cmbAustria = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox25 = new System.Windows.Forms.ComboBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
@@ -180,21 +207,45 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
+            this.tableLayoutPanel1.Controls.Add(this.comboBox26, 4, 27);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox24, 4, 25);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox3, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox23, 4, 24);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox4, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox22, 4, 23);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox5, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox21, 4, 22);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox2, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox20, 4, 21);
             this.tableLayoutPanel1.Controls.Add(this.chkAustria, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox19, 4, 20);
             this.tableLayoutPanel1.Controls.Add(this.chkBelgium, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox18, 4, 19);
             this.tableLayoutPanel1.Controls.Add(this.chkBulgaria, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox17, 4, 18);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel11, 3, 11);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox16, 4, 17);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel10, 3, 10);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox15, 4, 16);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel9, 3, 9);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox14, 4, 15);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel8, 3, 8);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox13, 4, 14);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel7, 3, 7);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox12, 4, 13);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel6, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox11, 4, 12);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel5, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox10, 4, 11);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel4, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox9, 4, 10);
             this.tableLayoutPanel1.Controls.Add(this.chkCrotia, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox8, 4, 9);
             this.tableLayoutPanel1.Controls.Add(this.chkCyprus, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox7, 4, 8);
             this.tableLayoutPanel1.Controls.Add(this.chkCzech_Republic, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox6, 4, 7);
             this.tableLayoutPanel1.Controls.Add(this.chkDenmark, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.chkEstonia, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.chkFinland, 0, 9);
@@ -248,6 +299,9 @@
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cmbAustria, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.comboBox25, 4, 26);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 28;
@@ -279,8 +333,138 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(370, 740);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(516, 740);
             this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // comboBox26
+            // 
+            this.comboBox26.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox26.FormattingEnabled = true;
+            this.comboBox26.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox26.Location = new System.Drawing.Point(263, 702);
+            this.comboBox26.Name = "comboBox26";
+            this.comboBox26.Size = new System.Drawing.Size(121, 21);
+            this.comboBox26.TabIndex = 61;
+            // 
+            // comboBox24
+            // 
+            this.comboBox24.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox24.FormattingEnabled = true;
+            this.comboBox24.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox24.Location = new System.Drawing.Point(263, 650);
+            this.comboBox24.Name = "comboBox24";
+            this.comboBox24.Size = new System.Drawing.Size(121, 21);
+            this.comboBox24.TabIndex = 78;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox3.Location = new System.Drawing.Point(263, 104);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 60;
+            // 
+            // comboBox23
+            // 
+            this.comboBox23.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox23.FormattingEnabled = true;
+            this.comboBox23.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox23.Location = new System.Drawing.Point(263, 624);
+            this.comboBox23.Name = "comboBox23";
+            this.comboBox23.Size = new System.Drawing.Size(121, 21);
+            this.comboBox23.TabIndex = 77;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox4.Location = new System.Drawing.Point(263, 130);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 21);
+            this.comboBox4.TabIndex = 61;
+            // 
+            // comboBox22
+            // 
+            this.comboBox22.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox22.FormattingEnabled = true;
+            this.comboBox22.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox22.Location = new System.Drawing.Point(263, 598);
+            this.comboBox22.Name = "comboBox22";
+            this.comboBox22.Size = new System.Drawing.Size(121, 21);
+            this.comboBox22.TabIndex = 76;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox5.Location = new System.Drawing.Point(263, 156);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(121, 21);
+            this.comboBox5.TabIndex = 62;
+            // 
+            // comboBox21
+            // 
+            this.comboBox21.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox21.FormattingEnabled = true;
+            this.comboBox21.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox21.Location = new System.Drawing.Point(263, 572);
+            this.comboBox21.Name = "comboBox21";
+            this.comboBox21.Size = new System.Drawing.Size(121, 21);
+            this.comboBox21.TabIndex = 75;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox2.Location = new System.Drawing.Point(263, 78);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 60;
+            // 
+            // comboBox20
+            // 
+            this.comboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox20.FormattingEnabled = true;
+            this.comboBox20.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox20.Location = new System.Drawing.Point(263, 546);
+            this.comboBox20.Name = "comboBox20";
+            this.comboBox20.Size = new System.Drawing.Size(121, 21);
+            this.comboBox20.TabIndex = 74;
             // 
             // chkAustria
             // 
@@ -295,6 +479,19 @@
             this.chkAustria.UseVisualStyleBackColor = true;
             this.chkAustria.Click += new System.EventHandler(this.canVote);
             // 
+            // comboBox19
+            // 
+            this.comboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox19.FormattingEnabled = true;
+            this.comboBox19.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox19.Location = new System.Drawing.Point(263, 520);
+            this.comboBox19.Name = "comboBox19";
+            this.comboBox19.Size = new System.Drawing.Size(121, 21);
+            this.comboBox19.TabIndex = 73;
+            // 
             // chkBelgium
             // 
             this.chkBelgium.AutoSize = true;
@@ -307,6 +504,19 @@
             this.chkBelgium.UseVisualStyleBackColor = true;
             this.chkBelgium.Click += new System.EventHandler(this.canVote);
             // 
+            // comboBox18
+            // 
+            this.comboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox18.FormattingEnabled = true;
+            this.comboBox18.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox18.Location = new System.Drawing.Point(263, 494);
+            this.comboBox18.Name = "comboBox18";
+            this.comboBox18.Size = new System.Drawing.Size(121, 21);
+            this.comboBox18.TabIndex = 72;
+            // 
             // chkBulgaria
             // 
             this.chkBulgaria.AutoSize = true;
@@ -318,6 +528,19 @@
             this.chkBulgaria.TabIndex = 2;
             this.chkBulgaria.UseVisualStyleBackColor = true;
             this.chkBulgaria.Click += new System.EventHandler(this.canVote);
+            // 
+            // comboBox17
+            // 
+            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox17.FormattingEnabled = true;
+            this.comboBox17.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox17.Location = new System.Drawing.Point(263, 468);
+            this.comboBox17.Name = "comboBox17";
+            this.comboBox17.Size = new System.Drawing.Size(121, 21);
+            this.comboBox17.TabIndex = 71;
             // 
             // flowLayoutPanel11
             // 
@@ -360,6 +583,19 @@
             this.button34.TabIndex = 2;
             this.button34.UseVisualStyleBackColor = true;
             // 
+            // comboBox16
+            // 
+            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox16.FormattingEnabled = true;
+            this.comboBox16.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox16.Location = new System.Drawing.Point(263, 442);
+            this.comboBox16.Name = "comboBox16";
+            this.comboBox16.Size = new System.Drawing.Size(121, 21);
+            this.comboBox16.TabIndex = 70;
+            // 
             // flowLayoutPanel10
             // 
             this.flowLayoutPanel10.Controls.Add(this.button29);
@@ -400,6 +636,19 @@
             this.button31.Size = new System.Drawing.Size(25, 23);
             this.button31.TabIndex = 2;
             this.button31.UseVisualStyleBackColor = true;
+            // 
+            // comboBox15
+            // 
+            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox15.FormattingEnabled = true;
+            this.comboBox15.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox15.Location = new System.Drawing.Point(263, 416);
+            this.comboBox15.Name = "comboBox15";
+            this.comboBox15.Size = new System.Drawing.Size(121, 21);
+            this.comboBox15.TabIndex = 69;
             // 
             // flowLayoutPanel9
             // 
@@ -442,6 +691,19 @@
             this.button28.TabIndex = 2;
             this.button28.UseVisualStyleBackColor = true;
             // 
+            // comboBox14
+            // 
+            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox14.FormattingEnabled = true;
+            this.comboBox14.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox14.Location = new System.Drawing.Point(263, 390);
+            this.comboBox14.Name = "comboBox14";
+            this.comboBox14.Size = new System.Drawing.Size(121, 21);
+            this.comboBox14.TabIndex = 68;
+            // 
             // flowLayoutPanel8
             // 
             this.flowLayoutPanel8.Controls.Add(this.button23);
@@ -482,6 +744,19 @@
             this.button25.Size = new System.Drawing.Size(25, 23);
             this.button25.TabIndex = 2;
             this.button25.UseVisualStyleBackColor = true;
+            // 
+            // comboBox13
+            // 
+            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox13.FormattingEnabled = true;
+            this.comboBox13.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox13.Location = new System.Drawing.Point(263, 364);
+            this.comboBox13.Name = "comboBox13";
+            this.comboBox13.Size = new System.Drawing.Size(121, 21);
+            this.comboBox13.TabIndex = 67;
             // 
             // flowLayoutPanel7
             // 
@@ -524,6 +799,19 @@
             this.button22.TabIndex = 2;
             this.button22.UseVisualStyleBackColor = true;
             // 
+            // comboBox12
+            // 
+            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox12.FormattingEnabled = true;
+            this.comboBox12.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox12.Location = new System.Drawing.Point(263, 338);
+            this.comboBox12.Name = "comboBox12";
+            this.comboBox12.Size = new System.Drawing.Size(121, 21);
+            this.comboBox12.TabIndex = 66;
+            // 
             // flowLayoutPanel6
             // 
             this.flowLayoutPanel6.Controls.Add(this.button17);
@@ -564,6 +852,19 @@
             this.button19.Size = new System.Drawing.Size(25, 23);
             this.button19.TabIndex = 2;
             this.button19.UseVisualStyleBackColor = true;
+            // 
+            // comboBox11
+            // 
+            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox11.FormattingEnabled = true;
+            this.comboBox11.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox11.Location = new System.Drawing.Point(263, 312);
+            this.comboBox11.Name = "comboBox11";
+            this.comboBox11.Size = new System.Drawing.Size(121, 21);
+            this.comboBox11.TabIndex = 65;
             // 
             // flowLayoutPanel5
             // 
@@ -606,6 +907,19 @@
             this.button16.TabIndex = 2;
             this.button16.UseVisualStyleBackColor = true;
             // 
+            // comboBox10
+            // 
+            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox10.FormattingEnabled = true;
+            this.comboBox10.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox10.Location = new System.Drawing.Point(263, 286);
+            this.comboBox10.Name = "comboBox10";
+            this.comboBox10.Size = new System.Drawing.Size(121, 21);
+            this.comboBox10.TabIndex = 64;
+            // 
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.Controls.Add(this.button11);
@@ -647,6 +961,19 @@
             this.button13.TabIndex = 2;
             this.button13.UseVisualStyleBackColor = true;
             // 
+            // comboBox9
+            // 
+            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox9.FormattingEnabled = true;
+            this.comboBox9.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox9.Location = new System.Drawing.Point(263, 260);
+            this.comboBox9.Name = "comboBox9";
+            this.comboBox9.Size = new System.Drawing.Size(121, 21);
+            this.comboBox9.TabIndex = 63;
+            // 
             // chkCrotia
             // 
             this.chkCrotia.AutoSize = true;
@@ -658,6 +985,19 @@
             this.chkCrotia.TabIndex = 3;
             this.chkCrotia.UseVisualStyleBackColor = true;
             this.chkCrotia.Click += new System.EventHandler(this.canVote);
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox8.Location = new System.Drawing.Point(263, 234);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(121, 21);
+            this.comboBox8.TabIndex = 62;
             // 
             // chkCyprus
             // 
@@ -671,6 +1011,19 @@
             this.chkCyprus.UseVisualStyleBackColor = true;
             this.chkCyprus.Click += new System.EventHandler(this.canVote);
             // 
+            // comboBox7
+            // 
+            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox7.Location = new System.Drawing.Point(263, 208);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(121, 21);
+            this.comboBox7.TabIndex = 61;
+            // 
             // chkCzech_Republic
             // 
             this.chkCzech_Republic.AutoSize = true;
@@ -682,6 +1035,19 @@
             this.chkCzech_Republic.TabIndex = 5;
             this.chkCzech_Republic.UseVisualStyleBackColor = true;
             this.chkCzech_Republic.Click += new System.EventHandler(this.canVote);
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox6.Location = new System.Drawing.Point(263, 182);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(121, 21);
+            this.comboBox6.TabIndex = 60;
             // 
             // chkDenmark
             // 
@@ -1347,6 +1713,46 @@
             this.label2.TabIndex = 55;
             this.label2.Text = "i";
             // 
+            // cmbAustria
+            // 
+            this.cmbAustria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbAustria.FormattingEnabled = true;
+            this.cmbAustria.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.cmbAustria.Location = new System.Drawing.Point(263, 26);
+            this.cmbAustria.Name = "cmbAustria";
+            this.cmbAustria.Size = new System.Drawing.Size(121, 21);
+            this.cmbAustria.TabIndex = 59;
+            this.cmbAustria.DropDownClosed += new System.EventHandler(this.changeVote);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox1.Location = new System.Drawing.Point(263, 52);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 60;
+            // 
+            // comboBox25
+            // 
+            this.comboBox25.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox25.FormattingEnabled = true;
+            this.comboBox25.Items.AddRange(new object[] {
+            "Abstain",
+            "No",
+            "Yes"});
+            this.comboBox25.Location = new System.Drawing.Point(263, 676);
+            this.comboBox25.Name = "comboBox25";
+            this.comboBox25.Size = new System.Drawing.Size(121, 21);
+            this.comboBox25.TabIndex = 60;
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(628, 141);
@@ -1531,6 +1937,33 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.ProgressBar progressBar2;
+        private System.Windows.Forms.ComboBox cmbAustria;
+        private System.Windows.Forms.ComboBox comboBox26;
+        private System.Windows.Forms.ComboBox comboBox24;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox23;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox22;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox21;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox20;
+        private System.Windows.Forms.ComboBox comboBox19;
+        private System.Windows.Forms.ComboBox comboBox18;
+        private System.Windows.Forms.ComboBox comboBox17;
+        private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.ComboBox comboBox15;
+        private System.Windows.Forms.ComboBox comboBox14;
+        private System.Windows.Forms.ComboBox comboBox13;
+        private System.Windows.Forms.ComboBox comboBox12;
+        private System.Windows.Forms.ComboBox comboBox11;
+        private System.Windows.Forms.ComboBox comboBox10;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox25;
     }
 }
 
