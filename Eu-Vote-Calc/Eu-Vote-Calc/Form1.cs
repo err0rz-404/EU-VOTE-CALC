@@ -18,7 +18,7 @@ namespace Eu_Vote_Calc
 
     public partial class Form1 : Form
     {
-        public List<CheckBox> chkCountriesList = new List<CheckBox>();
+        public List<CheckBox> chkCountriesList = new List<CheckBox>();//making them all together
         List<Countries> countri = new List<Countries>();
         List<ComboBox> cmbCountriesList = new List<ComboBox>();
         [Serializable]
@@ -46,6 +46,7 @@ namespace Eu_Vote_Calc
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //adding all the checkboxes into a list to have them all bunched
             chkCountriesList.Add(chkAustria);
             chkCountriesList.Add(chkBelgium);
             chkCountriesList.Add(chkBulgaria);
@@ -81,11 +82,11 @@ namespace Eu_Vote_Calc
                 Stream stream = new FileStream((x.ToString() + ".txt"), FileMode.Open, FileAccess.Read);
 
                 Countries cs = (Countries)formatter.Deserialize(stream);
-                countri.Add(cs);
+                countri.Add(cs);//adding the class to the class, adding the info the each instance
                 stream.Close();
                 x = x + 1;                
             }
-
+            //adding all the comboboxes into a list to have them all bunched
             cmbCountriesList.Add(cmbAustria);
             cmbCountriesList.Add(comboBox1);
             cmbCountriesList.Add(comboBox2);
@@ -114,58 +115,48 @@ namespace Eu_Vote_Calc
             cmbCountriesList.Add(comboBox25);
             cmbCountriesList.Add(comboBox26);
 
-            for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes in to yes by default
+            for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
             {
-                //MessageBox.Show(countri[i].Vote.ToString());
                 cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
-            }
-            //cmbAustria.SelectedIndex = countri[0].Vote - 1;//default is abstain
+            }            
         }
 
         private void canVote(object sender, EventArgs e)
         {
-            int canVoteAmount = 0;
-
-            for (int i = 0; i < 26; i++)
+            int canVoteAmount = 0;//allows for all them to be in one number
+            //if they can vote the combo box isnt disabled 
+            for (int i = 0; i < 26; i++)//looping through all the countries
             {
-                countri[i].changePart(chkCountriesList[i].Checked);
-                //MessageBox.Show(countri[i].name + " " + countri[i].Part + " " + countri[i].Vote);
-                //countri[i].Part = box[i].Checked;
-                if (chkCountriesList[i].Checked == true)
+                countri[i].changePart(chkCountriesList[i].Checked);//allowing for the form to not allow certain countries to vote
+                if (chkCountriesList[i].Checked == true)//if it they can vote
                 {
-                    canVoteAmount++;
-                    cmbCountriesList[i].Enabled = true;
+                    canVoteAmount++;//add the the amount that can vote
+                    cmbCountriesList[i].Enabled = true;//making it so it can be used in case it was disabled before
                 }
-                else
+                else//if it was not checked
                 {
-                    cmbCountriesList[i].Enabled = false;                    
+                    cmbCountriesList[i].Enabled = false;//making it not function as the country isnt able to vote
                 }
             }
-            textBox1.Clear();
-            textBox1.Text = "amount of votes that can be done " + canVoteAmount.ToString();
         }
 
         private void changeVote(object sender, EventArgs e)
-        {
-            
-            for (int i = 0; i < 26; i++)
+        {            
+            for (int i = 0; i < 26; i++)//getting their votes
             {
+                //changing the class value in method to say what each country vote is
                 if (cmbCountriesList[i].Text == "Yes")//1 is yes
                 {
                     countri[i].changeVote(1);
-                    MessageBox.Show(countri[i].Vote.ToString());
                 }
                 else if(cmbCountriesList[i].Text == "No")//2 is no
                 {
                     countri[i].changeVote(2);
-                    MessageBox.Show(countri[i].Vote.ToString());
                 }
                 else//3 is abstain
                 {
                     countri[i].changeVote(3);
-                    MessageBox.Show(countri[i].Vote.ToString());
                 }
-
             }
         }
     }
