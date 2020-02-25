@@ -29,68 +29,93 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.comboBox26 = new System.Windows.Forms.ComboBox();
-            this.comboBox24 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox23 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox22 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox21 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox20 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.cmbSweden = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.cmbSlovenia = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cmbCroatia = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.cmbSlovakia = new System.Windows.Forms.ComboBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.cmbCyprus = new System.Windows.Forms.ComboBox();
+            this.cmbRomania = new System.Windows.Forms.ComboBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.cmbCzechRepublic = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.cmbPortugal = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.cmbBulgaria = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.cmbPoland = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.chkAustria = new System.Windows.Forms.CheckBox();
-            this.comboBox19 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.cmbNetherlands = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.chkBelgium = new System.Windows.Forms.CheckBox();
-            this.comboBox18 = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cmbMalta = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.chkBulgaria = new System.Windows.Forms.CheckBox();
-            this.comboBox17 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cmbLuxemborg = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
-            this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.cmbLithuania = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
             this.button29 = new System.Windows.Forms.Button();
             this.button30 = new System.Windows.Forms.Button();
             this.button31 = new System.Windows.Forms.Button();
-            this.comboBox15 = new System.Windows.Forms.ComboBox();
+            this.cmbLativa = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
-            this.comboBox14 = new System.Windows.Forms.ComboBox();
+            this.cmbItaly = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
-            this.comboBox13 = new System.Windows.Forms.ComboBox();
+            this.cmbIreland = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.button20 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
+            this.cmbHungary = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
+            this.cmbGreece = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
+            this.cmbGermany = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.cmbFrance = new System.Windows.Forms.ComboBox();
             this.chkCrotia = new System.Windows.Forms.CheckBox();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.cmbFinland = new System.Windows.Forms.ComboBox();
             this.chkCyprus = new System.Windows.Forms.CheckBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.cmbEstonia = new System.Windows.Forms.ComboBox();
             this.chkCzech_Republic = new System.Windows.Forms.CheckBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.cmbDenmark = new System.Windows.Forms.ComboBox();
             this.chkDenmark = new System.Windows.Forms.CheckBox();
             this.chkEstonia = new System.Windows.Forms.CheckBox();
             this.chkFinland = new System.Windows.Forms.CheckBox();
@@ -139,7 +164,6 @@
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox27 = new System.Windows.Forms.PictureBox();
-            this.lbl = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -154,35 +178,11 @@
             this.button10 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbAustria = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox25 = new System.Windows.Forms.ComboBox();
+            this.cmbBelgium = new System.Windows.Forms.ComboBox();
+            this.cmbSpain = new System.Windows.Forms.ComboBox();
+            this.lbl = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel11.SuspendLayout();
             this.flowLayoutPanel10.SuspendLayout();
@@ -232,70 +232,70 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 256F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 258F));
             this.tableLayoutPanel1.Controls.Add(this.label6, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.label26, 2, 27);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox26, 4, 27);
+            this.tableLayoutPanel1.Controls.Add(this.cmbSweden, 4, 27);
             this.tableLayoutPanel1.Controls.Add(this.label25, 2, 26);
             this.tableLayoutPanel1.Controls.Add(this.label5, 2, 6);
             this.tableLayoutPanel1.Controls.Add(this.label24, 2, 25);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox24, 4, 25);
+            this.tableLayoutPanel1.Controls.Add(this.cmbSlovenia, 4, 25);
             this.tableLayoutPanel1.Controls.Add(this.label23, 2, 24);
             this.tableLayoutPanel1.Controls.Add(this.label4, 2, 5);
             this.tableLayoutPanel1.Controls.Add(this.label22, 2, 23);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox3, 4, 4);
+            this.tableLayoutPanel1.Controls.Add(this.cmbCroatia, 4, 4);
             this.tableLayoutPanel1.Controls.Add(this.label21, 2, 22);
             this.tableLayoutPanel1.Controls.Add(this.label3, 2, 4);
             this.tableLayoutPanel1.Controls.Add(this.label20, 2, 21);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox23, 4, 24);
+            this.tableLayoutPanel1.Controls.Add(this.cmbSlovakia, 4, 24);
             this.tableLayoutPanel1.Controls.Add(this.label19, 2, 20);
             this.tableLayoutPanel1.Controls.Add(this.label1, 2, 3);
             this.tableLayoutPanel1.Controls.Add(this.label17, 2, 19);
             this.tableLayoutPanel1.Controls.Add(this.label18, 2, 18);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox4, 4, 5);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox22, 4, 23);
+            this.tableLayoutPanel1.Controls.Add(this.cmbCyprus, 4, 5);
+            this.tableLayoutPanel1.Controls.Add(this.cmbRomania, 4, 23);
             this.tableLayoutPanel1.Controls.Add(this.label16, 2, 17);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox5, 4, 6);
+            this.tableLayoutPanel1.Controls.Add(this.cmbCzechRepublic, 4, 6);
             this.tableLayoutPanel1.Controls.Add(this.label15, 2, 16);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox21, 4, 22);
+            this.tableLayoutPanel1.Controls.Add(this.cmbPortugal, 4, 22);
             this.tableLayoutPanel1.Controls.Add(this.label14, 2, 15);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox2, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.cmbBulgaria, 4, 3);
             this.tableLayoutPanel1.Controls.Add(this.label13, 2, 14);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox20, 4, 21);
+            this.tableLayoutPanel1.Controls.Add(this.cmbPoland, 4, 21);
             this.tableLayoutPanel1.Controls.Add(this.label12, 2, 13);
             this.tableLayoutPanel1.Controls.Add(this.chkAustria, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label11, 2, 12);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox19, 4, 20);
+            this.tableLayoutPanel1.Controls.Add(this.cmbNetherlands, 4, 20);
             this.tableLayoutPanel1.Controls.Add(this.label10, 2, 11);
             this.tableLayoutPanel1.Controls.Add(this.chkBelgium, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label9, 2, 10);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox18, 4, 19);
+            this.tableLayoutPanel1.Controls.Add(this.cmbMalta, 4, 19);
             this.tableLayoutPanel1.Controls.Add(this.label8, 2, 9);
             this.tableLayoutPanel1.Controls.Add(this.chkBulgaria, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label7, 2, 8);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox17, 4, 18);
+            this.tableLayoutPanel1.Controls.Add(this.cmbLuxemborg, 4, 18);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel11, 3, 11);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox16, 4, 17);
+            this.tableLayoutPanel1.Controls.Add(this.cmbLithuania, 4, 17);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel10, 3, 10);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox15, 4, 16);
+            this.tableLayoutPanel1.Controls.Add(this.cmbLativa, 4, 16);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel9, 3, 9);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox14, 4, 15);
+            this.tableLayoutPanel1.Controls.Add(this.cmbItaly, 4, 15);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel8, 3, 8);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox13, 4, 14);
+            this.tableLayoutPanel1.Controls.Add(this.cmbIreland, 4, 14);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel7, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox12, 4, 13);
+            this.tableLayoutPanel1.Controls.Add(this.cmbHungary, 4, 13);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel6, 3, 6);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox11, 4, 12);
+            this.tableLayoutPanel1.Controls.Add(this.cmbGreece, 4, 12);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel5, 3, 5);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox10, 4, 11);
+            this.tableLayoutPanel1.Controls.Add(this.cmbGermany, 4, 11);
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel4, 3, 4);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox9, 4, 10);
+            this.tableLayoutPanel1.Controls.Add(this.cmbFrance, 4, 10);
             this.tableLayoutPanel1.Controls.Add(this.chkCrotia, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox8, 4, 9);
+            this.tableLayoutPanel1.Controls.Add(this.cmbFinland, 4, 9);
             this.tableLayoutPanel1.Controls.Add(this.chkCyprus, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox7, 4, 8);
+            this.tableLayoutPanel1.Controls.Add(this.cmbEstonia, 4, 8);
             this.tableLayoutPanel1.Controls.Add(this.chkCzech_Republic, 0, 6);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox6, 4, 7);
+            this.tableLayoutPanel1.Controls.Add(this.cmbDenmark, 4, 7);
             this.tableLayoutPanel1.Controls.Add(this.chkDenmark, 0, 7);
             this.tableLayoutPanel1.Controls.Add(this.chkEstonia, 0, 8);
             this.tableLayoutPanel1.Controls.Add(this.chkFinland, 0, 9);
@@ -349,8 +349,8 @@
             this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.label2, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.cmbAustria, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox25, 4, 26);
+            this.tableLayoutPanel1.Controls.Add(this.cmbBelgium, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cmbSpain, 4, 26);
             this.tableLayoutPanel1.Controls.Add(this.lbl, 2, 1);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -386,135 +386,315 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(516, 758);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
-            // comboBox26
+            // label6
             // 
-            this.comboBox26.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox26.FormattingEnabled = true;
-            this.comboBox26.Items.AddRange(new object[] {
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(66, 190);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(9, 13);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "i";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(66, 730);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(9, 13);
+            this.label26.TabIndex = 75;
+            this.label26.Text = "i";
+            // 
+            // cmbSweden
+            // 
+            this.cmbSweden.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSweden.FormattingEnabled = true;
+            this.cmbSweden.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox26.Location = new System.Drawing.Point(268, 733);
-            this.comboBox26.Name = "comboBox26";
-            this.comboBox26.Size = new System.Drawing.Size(121, 21);
-            this.comboBox26.TabIndex = 61;
+            this.cmbSweden.Location = new System.Drawing.Point(268, 733);
+            this.cmbSweden.Name = "cmbSweden";
+            this.cmbSweden.Size = new System.Drawing.Size(121, 21);
+            this.cmbSweden.TabIndex = 61;
             // 
-            // comboBox24
+            // label25
             // 
-            this.comboBox24.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox24.FormattingEnabled = true;
-            this.comboBox24.Items.AddRange(new object[] {
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(66, 703);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(9, 13);
+            this.label25.TabIndex = 74;
+            this.label25.Text = "i";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(66, 163);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(9, 13);
+            this.label5.TabIndex = 59;
+            this.label5.Text = "i";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(66, 676);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(9, 13);
+            this.label24.TabIndex = 73;
+            this.label24.Text = "i";
+            // 
+            // cmbSlovenia
+            // 
+            this.cmbSlovenia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSlovenia.FormattingEnabled = true;
+            this.cmbSlovenia.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox24.Location = new System.Drawing.Point(268, 679);
-            this.comboBox24.Name = "comboBox24";
-            this.comboBox24.Size = new System.Drawing.Size(121, 21);
-            this.comboBox24.TabIndex = 78;
+            this.cmbSlovenia.Location = new System.Drawing.Point(268, 679);
+            this.cmbSlovenia.Name = "cmbSlovenia";
+            this.cmbSlovenia.Size = new System.Drawing.Size(121, 21);
+            this.cmbSlovenia.TabIndex = 78;
             // 
-            // comboBox3
+            // label23
             // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(66, 649);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(9, 13);
+            this.label23.TabIndex = 72;
+            this.label23.Text = "i";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(66, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(9, 13);
+            this.label4.TabIndex = 58;
+            this.label4.Text = "i";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(66, 622);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(9, 13);
+            this.label22.TabIndex = 71;
+            this.label22.Text = "i";
+            // 
+            // cmbCroatia
+            // 
+            this.cmbCroatia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCroatia.FormattingEnabled = true;
+            this.cmbCroatia.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox3.Location = new System.Drawing.Point(268, 112);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 60;
+            this.cmbCroatia.Location = new System.Drawing.Point(268, 112);
+            this.cmbCroatia.Name = "cmbCroatia";
+            this.cmbCroatia.Size = new System.Drawing.Size(121, 21);
+            this.cmbCroatia.TabIndex = 60;
             // 
-            // comboBox23
+            // label21
             // 
-            this.comboBox23.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox23.FormattingEnabled = true;
-            this.comboBox23.Items.AddRange(new object[] {
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(66, 595);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(9, 13);
+            this.label21.TabIndex = 70;
+            this.label21.Text = "i";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(66, 109);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(9, 13);
+            this.label3.TabIndex = 57;
+            this.label3.Text = "i";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(66, 568);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(9, 13);
+            this.label20.TabIndex = 69;
+            this.label20.Text = "i";
+            // 
+            // cmbSlovakia
+            // 
+            this.cmbSlovakia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSlovakia.FormattingEnabled = true;
+            this.cmbSlovakia.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox23.Location = new System.Drawing.Point(268, 652);
-            this.comboBox23.Name = "comboBox23";
-            this.comboBox23.Size = new System.Drawing.Size(121, 21);
-            this.comboBox23.TabIndex = 77;
+            this.cmbSlovakia.Location = new System.Drawing.Point(268, 652);
+            this.cmbSlovakia.Name = "cmbSlovakia";
+            this.cmbSlovakia.Size = new System.Drawing.Size(121, 21);
+            this.cmbSlovakia.TabIndex = 77;
             // 
-            // comboBox4
+            // label19
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(66, 541);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(9, 13);
+            this.label19.TabIndex = 68;
+            this.label19.Text = "i";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(66, 82);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(9, 13);
+            this.label1.TabIndex = 56;
+            this.label1.Text = "i";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(66, 514);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(9, 13);
+            this.label17.TabIndex = 66;
+            this.label17.Text = "i";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(66, 487);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(9, 13);
+            this.label18.TabIndex = 67;
+            this.label18.Text = "i";
+            // 
+            // cmbCyprus
+            // 
+            this.cmbCyprus.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCyprus.FormattingEnabled = true;
+            this.cmbCyprus.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox4.Location = new System.Drawing.Point(268, 139);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(121, 21);
-            this.comboBox4.TabIndex = 61;
+            this.cmbCyprus.Location = new System.Drawing.Point(268, 139);
+            this.cmbCyprus.Name = "cmbCyprus";
+            this.cmbCyprus.Size = new System.Drawing.Size(121, 21);
+            this.cmbCyprus.TabIndex = 61;
             // 
-            // comboBox22
+            // cmbRomania
             // 
-            this.comboBox22.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox22.FormattingEnabled = true;
-            this.comboBox22.Items.AddRange(new object[] {
+            this.cmbRomania.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbRomania.FormattingEnabled = true;
+            this.cmbRomania.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox22.Location = new System.Drawing.Point(268, 625);
-            this.comboBox22.Name = "comboBox22";
-            this.comboBox22.Size = new System.Drawing.Size(121, 21);
-            this.comboBox22.TabIndex = 76;
+            this.cmbRomania.Location = new System.Drawing.Point(268, 625);
+            this.cmbRomania.Name = "cmbRomania";
+            this.cmbRomania.Size = new System.Drawing.Size(121, 21);
+            this.cmbRomania.TabIndex = 76;
             // 
-            // comboBox5
+            // label16
             // 
-            this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Items.AddRange(new object[] {
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(66, 460);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(9, 13);
+            this.label16.TabIndex = 65;
+            this.label16.Text = "i";
+            // 
+            // cmbCzechRepublic
+            // 
+            this.cmbCzechRepublic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCzechRepublic.FormattingEnabled = true;
+            this.cmbCzechRepublic.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox5.Location = new System.Drawing.Point(268, 166);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(121, 21);
-            this.comboBox5.TabIndex = 62;
+            this.cmbCzechRepublic.Location = new System.Drawing.Point(268, 166);
+            this.cmbCzechRepublic.Name = "cmbCzechRepublic";
+            this.cmbCzechRepublic.Size = new System.Drawing.Size(121, 21);
+            this.cmbCzechRepublic.TabIndex = 62;
             // 
-            // comboBox21
+            // label15
             // 
-            this.comboBox21.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox21.FormattingEnabled = true;
-            this.comboBox21.Items.AddRange(new object[] {
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(66, 433);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(9, 13);
+            this.label15.TabIndex = 64;
+            this.label15.Text = "i";
+            // 
+            // cmbPortugal
+            // 
+            this.cmbPortugal.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPortugal.FormattingEnabled = true;
+            this.cmbPortugal.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox21.Location = new System.Drawing.Point(268, 598);
-            this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(121, 21);
-            this.comboBox21.TabIndex = 75;
+            this.cmbPortugal.Location = new System.Drawing.Point(268, 598);
+            this.cmbPortugal.Name = "cmbPortugal";
+            this.cmbPortugal.Size = new System.Drawing.Size(121, 21);
+            this.cmbPortugal.TabIndex = 75;
             // 
-            // comboBox2
+            // label14
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(66, 406);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(9, 13);
+            this.label14.TabIndex = 63;
+            this.label14.Text = "i";
+            // 
+            // cmbBulgaria
+            // 
+            this.cmbBulgaria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbBulgaria.FormattingEnabled = true;
+            this.cmbBulgaria.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox2.Location = new System.Drawing.Point(268, 85);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 60;
+            this.cmbBulgaria.Location = new System.Drawing.Point(268, 85);
+            this.cmbBulgaria.Name = "cmbBulgaria";
+            this.cmbBulgaria.Size = new System.Drawing.Size(121, 21);
+            this.cmbBulgaria.TabIndex = 60;
             // 
-            // comboBox20
+            // label13
             // 
-            this.comboBox20.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox20.FormattingEnabled = true;
-            this.comboBox20.Items.AddRange(new object[] {
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(66, 379);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(9, 13);
+            this.label13.TabIndex = 62;
+            this.label13.Text = "i";
+            // 
+            // cmbPoland
+            // 
+            this.cmbPoland.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbPoland.FormattingEnabled = true;
+            this.cmbPoland.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox20.Location = new System.Drawing.Point(268, 571);
-            this.comboBox20.Name = "comboBox20";
-            this.comboBox20.Size = new System.Drawing.Size(121, 21);
-            this.comboBox20.TabIndex = 74;
+            this.cmbPoland.Location = new System.Drawing.Point(268, 571);
+            this.cmbPoland.Name = "cmbPoland";
+            this.cmbPoland.Size = new System.Drawing.Size(121, 21);
+            this.cmbPoland.TabIndex = 74;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(66, 352);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(9, 13);
+            this.label12.TabIndex = 61;
+            this.label12.Text = "i";
             // 
             // chkAustria
             // 
@@ -529,18 +709,36 @@
             this.chkAustria.UseVisualStyleBackColor = true;
             this.chkAustria.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox19
+            // label11
             // 
-            this.comboBox19.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox19.FormattingEnabled = true;
-            this.comboBox19.Items.AddRange(new object[] {
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(66, 325);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(9, 13);
+            this.label11.TabIndex = 60;
+            this.label11.Text = "i";
+            // 
+            // cmbNetherlands
+            // 
+            this.cmbNetherlands.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNetherlands.FormattingEnabled = true;
+            this.cmbNetherlands.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox19.Location = new System.Drawing.Point(268, 544);
-            this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(121, 21);
-            this.comboBox19.TabIndex = 73;
+            this.cmbNetherlands.Location = new System.Drawing.Point(268, 544);
+            this.cmbNetherlands.Name = "cmbNetherlands";
+            this.cmbNetherlands.Size = new System.Drawing.Size(121, 21);
+            this.cmbNetherlands.TabIndex = 73;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(66, 298);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(9, 13);
+            this.label10.TabIndex = 59;
+            this.label10.Text = "i";
             // 
             // chkBelgium
             // 
@@ -554,18 +752,36 @@
             this.chkBelgium.UseVisualStyleBackColor = true;
             this.chkBelgium.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox18
+            // label9
             // 
-            this.comboBox18.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox18.FormattingEnabled = true;
-            this.comboBox18.Items.AddRange(new object[] {
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(66, 271);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(9, 13);
+            this.label9.TabIndex = 58;
+            this.label9.Text = "i";
+            // 
+            // cmbMalta
+            // 
+            this.cmbMalta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbMalta.FormattingEnabled = true;
+            this.cmbMalta.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox18.Location = new System.Drawing.Point(268, 517);
-            this.comboBox18.Name = "comboBox18";
-            this.comboBox18.Size = new System.Drawing.Size(121, 21);
-            this.comboBox18.TabIndex = 72;
+            this.cmbMalta.Location = new System.Drawing.Point(268, 517);
+            this.cmbMalta.Name = "cmbMalta";
+            this.cmbMalta.Size = new System.Drawing.Size(121, 21);
+            this.cmbMalta.TabIndex = 72;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(66, 244);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(9, 13);
+            this.label8.TabIndex = 57;
+            this.label8.Text = "i";
             // 
             // chkBulgaria
             // 
@@ -579,18 +795,27 @@
             this.chkBulgaria.UseVisualStyleBackColor = true;
             this.chkBulgaria.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox17
+            // label7
             // 
-            this.comboBox17.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox17.FormattingEnabled = true;
-            this.comboBox17.Items.AddRange(new object[] {
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(66, 217);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(9, 13);
+            this.label7.TabIndex = 56;
+            this.label7.Text = "i";
+            // 
+            // cmbLuxemborg
+            // 
+            this.cmbLuxemborg.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLuxemborg.FormattingEnabled = true;
+            this.cmbLuxemborg.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox17.Location = new System.Drawing.Point(268, 490);
-            this.comboBox17.Name = "comboBox17";
-            this.comboBox17.Size = new System.Drawing.Size(121, 21);
-            this.comboBox17.TabIndex = 71;
+            this.cmbLuxemborg.Location = new System.Drawing.Point(268, 490);
+            this.cmbLuxemborg.Name = "cmbLuxemborg";
+            this.cmbLuxemborg.Size = new System.Drawing.Size(121, 21);
+            this.cmbLuxemborg.TabIndex = 71;
             // 
             // flowLayoutPanel11
             // 
@@ -633,18 +858,18 @@
             this.button34.TabIndex = 2;
             this.button34.UseVisualStyleBackColor = true;
             // 
-            // comboBox16
+            // cmbLithuania
             // 
-            this.comboBox16.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Items.AddRange(new object[] {
+            this.cmbLithuania.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLithuania.FormattingEnabled = true;
+            this.cmbLithuania.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox16.Location = new System.Drawing.Point(268, 463);
-            this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(121, 21);
-            this.comboBox16.TabIndex = 70;
+            this.cmbLithuania.Location = new System.Drawing.Point(268, 463);
+            this.cmbLithuania.Name = "cmbLithuania";
+            this.cmbLithuania.Size = new System.Drawing.Size(121, 21);
+            this.cmbLithuania.TabIndex = 70;
             // 
             // flowLayoutPanel10
             // 
@@ -687,18 +912,18 @@
             this.button31.TabIndex = 2;
             this.button31.UseVisualStyleBackColor = true;
             // 
-            // comboBox15
+            // cmbLativa
             // 
-            this.comboBox15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Items.AddRange(new object[] {
+            this.cmbLativa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbLativa.FormattingEnabled = true;
+            this.cmbLativa.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox15.Location = new System.Drawing.Point(268, 436);
-            this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(121, 21);
-            this.comboBox15.TabIndex = 69;
+            this.cmbLativa.Location = new System.Drawing.Point(268, 436);
+            this.cmbLativa.Name = "cmbLativa";
+            this.cmbLativa.Size = new System.Drawing.Size(121, 21);
+            this.cmbLativa.TabIndex = 69;
             // 
             // flowLayoutPanel9
             // 
@@ -741,18 +966,18 @@
             this.button28.TabIndex = 2;
             this.button28.UseVisualStyleBackColor = true;
             // 
-            // comboBox14
+            // cmbItaly
             // 
-            this.comboBox14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Items.AddRange(new object[] {
+            this.cmbItaly.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbItaly.FormattingEnabled = true;
+            this.cmbItaly.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox14.Location = new System.Drawing.Point(268, 409);
-            this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(121, 21);
-            this.comboBox14.TabIndex = 68;
+            this.cmbItaly.Location = new System.Drawing.Point(268, 409);
+            this.cmbItaly.Name = "cmbItaly";
+            this.cmbItaly.Size = new System.Drawing.Size(121, 21);
+            this.cmbItaly.TabIndex = 68;
             // 
             // flowLayoutPanel8
             // 
@@ -795,18 +1020,18 @@
             this.button25.TabIndex = 2;
             this.button25.UseVisualStyleBackColor = true;
             // 
-            // comboBox13
+            // cmbIreland
             // 
-            this.comboBox13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Items.AddRange(new object[] {
+            this.cmbIreland.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbIreland.FormattingEnabled = true;
+            this.cmbIreland.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox13.Location = new System.Drawing.Point(268, 382);
-            this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(121, 21);
-            this.comboBox13.TabIndex = 67;
+            this.cmbIreland.Location = new System.Drawing.Point(268, 382);
+            this.cmbIreland.Name = "cmbIreland";
+            this.cmbIreland.Size = new System.Drawing.Size(121, 21);
+            this.cmbIreland.TabIndex = 67;
             // 
             // flowLayoutPanel7
             // 
@@ -849,18 +1074,18 @@
             this.button22.TabIndex = 2;
             this.button22.UseVisualStyleBackColor = true;
             // 
-            // comboBox12
+            // cmbHungary
             // 
-            this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Items.AddRange(new object[] {
+            this.cmbHungary.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbHungary.FormattingEnabled = true;
+            this.cmbHungary.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox12.Location = new System.Drawing.Point(268, 355);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(121, 21);
-            this.comboBox12.TabIndex = 66;
+            this.cmbHungary.Location = new System.Drawing.Point(268, 355);
+            this.cmbHungary.Name = "cmbHungary";
+            this.cmbHungary.Size = new System.Drawing.Size(121, 21);
+            this.cmbHungary.TabIndex = 66;
             // 
             // flowLayoutPanel6
             // 
@@ -903,18 +1128,18 @@
             this.button19.TabIndex = 2;
             this.button19.UseVisualStyleBackColor = true;
             // 
-            // comboBox11
+            // cmbGreece
             // 
-            this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Items.AddRange(new object[] {
+            this.cmbGreece.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGreece.FormattingEnabled = true;
+            this.cmbGreece.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox11.Location = new System.Drawing.Point(268, 328);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(121, 21);
-            this.comboBox11.TabIndex = 65;
+            this.cmbGreece.Location = new System.Drawing.Point(268, 328);
+            this.cmbGreece.Name = "cmbGreece";
+            this.cmbGreece.Size = new System.Drawing.Size(121, 21);
+            this.cmbGreece.TabIndex = 65;
             // 
             // flowLayoutPanel5
             // 
@@ -957,18 +1182,18 @@
             this.button16.TabIndex = 2;
             this.button16.UseVisualStyleBackColor = true;
             // 
-            // comboBox10
+            // cmbGermany
             // 
-            this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Items.AddRange(new object[] {
+            this.cmbGermany.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGermany.FormattingEnabled = true;
+            this.cmbGermany.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox10.Location = new System.Drawing.Point(268, 301);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(121, 21);
-            this.comboBox10.TabIndex = 64;
+            this.cmbGermany.Location = new System.Drawing.Point(268, 301);
+            this.cmbGermany.Name = "cmbGermany";
+            this.cmbGermany.Size = new System.Drawing.Size(121, 21);
+            this.cmbGermany.TabIndex = 64;
             // 
             // flowLayoutPanel4
             // 
@@ -1011,18 +1236,18 @@
             this.button13.TabIndex = 2;
             this.button13.UseVisualStyleBackColor = true;
             // 
-            // comboBox9
+            // cmbFrance
             // 
-            this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Items.AddRange(new object[] {
+            this.cmbFrance.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFrance.FormattingEnabled = true;
+            this.cmbFrance.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox9.Location = new System.Drawing.Point(268, 274);
-            this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(121, 21);
-            this.comboBox9.TabIndex = 63;
+            this.cmbFrance.Location = new System.Drawing.Point(268, 274);
+            this.cmbFrance.Name = "cmbFrance";
+            this.cmbFrance.Size = new System.Drawing.Size(121, 21);
+            this.cmbFrance.TabIndex = 63;
             // 
             // chkCrotia
             // 
@@ -1036,18 +1261,18 @@
             this.chkCrotia.UseVisualStyleBackColor = true;
             this.chkCrotia.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox8
+            // cmbFinland
             // 
-            this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Items.AddRange(new object[] {
+            this.cmbFinland.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFinland.FormattingEnabled = true;
+            this.cmbFinland.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox8.Location = new System.Drawing.Point(268, 247);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 21);
-            this.comboBox8.TabIndex = 62;
+            this.cmbFinland.Location = new System.Drawing.Point(268, 247);
+            this.cmbFinland.Name = "cmbFinland";
+            this.cmbFinland.Size = new System.Drawing.Size(121, 21);
+            this.cmbFinland.TabIndex = 62;
             // 
             // chkCyprus
             // 
@@ -1061,18 +1286,18 @@
             this.chkCyprus.UseVisualStyleBackColor = true;
             this.chkCyprus.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox7
+            // cmbEstonia
             // 
-            this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Items.AddRange(new object[] {
+            this.cmbEstonia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEstonia.FormattingEnabled = true;
+            this.cmbEstonia.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox7.Location = new System.Drawing.Point(268, 220);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 61;
+            this.cmbEstonia.Location = new System.Drawing.Point(268, 220);
+            this.cmbEstonia.Name = "cmbEstonia";
+            this.cmbEstonia.Size = new System.Drawing.Size(121, 21);
+            this.cmbEstonia.TabIndex = 61;
             // 
             // chkCzech_Republic
             // 
@@ -1086,18 +1311,18 @@
             this.chkCzech_Republic.UseVisualStyleBackColor = true;
             this.chkCzech_Republic.Click += new System.EventHandler(this.canVote);
             // 
-            // comboBox6
+            // cmbDenmark
             // 
-            this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Items.AddRange(new object[] {
+            this.cmbDenmark.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbDenmark.FormattingEnabled = true;
+            this.cmbDenmark.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox6.Location = new System.Drawing.Point(268, 193);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(121, 21);
-            this.comboBox6.TabIndex = 60;
+            this.cmbDenmark.Location = new System.Drawing.Point(268, 193);
+            this.cmbDenmark.Name = "cmbDenmark";
+            this.cmbDenmark.Size = new System.Drawing.Size(121, 21);
+            this.cmbDenmark.TabIndex = 60;
             // 
             // chkDenmark
             // 
@@ -1621,15 +1846,6 @@
             this.pictureBox27.TabIndex = 53;
             this.pictureBox27.TabStop = false;
             // 
-            // lbl
-            // 
-            this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(66, 28);
-            this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(35, 13);
-            this.lbl.TabIndex = 54;
-            this.lbl.Text = "label1";
-            // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.button2);
@@ -1777,31 +1993,40 @@
             this.cmbAustria.TabIndex = 59;
             this.cmbAustria.DropDownClosed += new System.EventHandler(this.changeVote);
             // 
-            // comboBox1
+            // cmbBelgium
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmbBelgium.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbBelgium.FormattingEnabled = true;
+            this.cmbBelgium.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox1.Location = new System.Drawing.Point(268, 58);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 60;
+            this.cmbBelgium.Location = new System.Drawing.Point(268, 58);
+            this.cmbBelgium.Name = "cmbBelgium";
+            this.cmbBelgium.Size = new System.Drawing.Size(121, 21);
+            this.cmbBelgium.TabIndex = 60;
             // 
-            // comboBox25
+            // cmbSpain
             // 
-            this.comboBox25.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox25.FormattingEnabled = true;
-            this.comboBox25.Items.AddRange(new object[] {
+            this.cmbSpain.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbSpain.FormattingEnabled = true;
+            this.cmbSpain.Items.AddRange(new object[] {
             "Abstain",
             "No",
             "Yes"});
-            this.comboBox25.Location = new System.Drawing.Point(268, 706);
-            this.comboBox25.Name = "comboBox25";
-            this.comboBox25.Size = new System.Drawing.Size(121, 21);
-            this.comboBox25.TabIndex = 60;
+            this.cmbSpain.Location = new System.Drawing.Point(268, 706);
+            this.cmbSpain.Name = "cmbSpain";
+            this.cmbSpain.Size = new System.Drawing.Size(121, 21);
+            this.cmbSpain.TabIndex = 60;
+            // 
+            // lbl
+            // 
+            this.lbl.AutoSize = true;
+            this.lbl.Location = new System.Drawing.Point(66, 28);
+            this.lbl.Name = "lbl";
+            this.lbl.Size = new System.Drawing.Size(35, 13);
+            this.lbl.TabIndex = 54;
+            this.lbl.Text = "label1";
             // 
             // progressBar1
             // 
@@ -1816,231 +2041,6 @@
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(260, 23);
             this.progressBar2.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(66, 82);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(9, 13);
-            this.label1.TabIndex = 56;
-            this.label1.Text = "i";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(66, 109);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(9, 13);
-            this.label3.TabIndex = 57;
-            this.label3.Text = "i";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(66, 136);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(9, 13);
-            this.label4.TabIndex = 58;
-            this.label4.Text = "i";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(66, 163);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(9, 13);
-            this.label5.TabIndex = 59;
-            this.label5.Text = "i";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(66, 190);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(9, 13);
-            this.label6.TabIndex = 60;
-            this.label6.Text = "i";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(66, 217);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(9, 13);
-            this.label7.TabIndex = 56;
-            this.label7.Text = "i";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(66, 244);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(9, 13);
-            this.label8.TabIndex = 57;
-            this.label8.Text = "i";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(66, 271);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(9, 13);
-            this.label9.TabIndex = 58;
-            this.label9.Text = "i";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(66, 298);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(9, 13);
-            this.label10.TabIndex = 59;
-            this.label10.Text = "i";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(66, 325);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(9, 13);
-            this.label11.TabIndex = 60;
-            this.label11.Text = "i";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(66, 352);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(9, 13);
-            this.label12.TabIndex = 61;
-            this.label12.Text = "i";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(66, 379);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(9, 13);
-            this.label13.TabIndex = 62;
-            this.label13.Text = "i";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(66, 406);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(9, 13);
-            this.label14.TabIndex = 63;
-            this.label14.Text = "i";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(66, 433);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(9, 13);
-            this.label15.TabIndex = 64;
-            this.label15.Text = "i";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(66, 460);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(9, 13);
-            this.label16.TabIndex = 65;
-            this.label16.Text = "i";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(66, 514);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(9, 13);
-            this.label17.TabIndex = 66;
-            this.label17.Text = "i";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(66, 487);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(9, 13);
-            this.label18.TabIndex = 67;
-            this.label18.Text = "i";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(66, 541);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(9, 13);
-            this.label19.TabIndex = 68;
-            this.label19.Text = "i";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(66, 568);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(9, 13);
-            this.label20.TabIndex = 69;
-            this.label20.Text = "i";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(66, 595);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(9, 13);
-            this.label21.TabIndex = 70;
-            this.label21.Text = "i";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(66, 622);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(9, 13);
-            this.label22.TabIndex = 71;
-            this.label22.Text = "i";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(66, 649);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(9, 13);
-            this.label23.TabIndex = 72;
-            this.label23.Text = "i";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(66, 676);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(9, 13);
-            this.label24.TabIndex = 73;
-            this.label24.Text = "i";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(66, 703);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(9, 13);
-            this.label25.TabIndex = 74;
-            this.label25.Text = "i";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(66, 730);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(9, 13);
-            this.label26.TabIndex = 75;
-            this.label26.Text = "i";
             // 
             // Form1
             // 
@@ -2203,32 +2203,32 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.ComboBox cmbAustria;
-        private System.Windows.Forms.ComboBox comboBox26;
-        private System.Windows.Forms.ComboBox comboBox24;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox23;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox22;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.ComboBox comboBox21;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox20;
-        private System.Windows.Forms.ComboBox comboBox19;
-        private System.Windows.Forms.ComboBox comboBox18;
-        private System.Windows.Forms.ComboBox comboBox17;
-        private System.Windows.Forms.ComboBox comboBox16;
-        private System.Windows.Forms.ComboBox comboBox15;
-        private System.Windows.Forms.ComboBox comboBox14;
-        private System.Windows.Forms.ComboBox comboBox13;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.ComboBox comboBox9;
-        private System.Windows.Forms.ComboBox comboBox8;
-        private System.Windows.Forms.ComboBox comboBox7;
-        private System.Windows.Forms.ComboBox comboBox6;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox25;
+        private System.Windows.Forms.ComboBox cmbSweden;
+        private System.Windows.Forms.ComboBox cmbSlovenia;
+        private System.Windows.Forms.ComboBox cmbCroatia;
+        private System.Windows.Forms.ComboBox cmbSlovakia;
+        private System.Windows.Forms.ComboBox cmbCyprus;
+        private System.Windows.Forms.ComboBox cmbRomania;
+        private System.Windows.Forms.ComboBox cmbCzechRepublic;
+        private System.Windows.Forms.ComboBox cmbPortugal;
+        private System.Windows.Forms.ComboBox cmbBulgaria;
+        private System.Windows.Forms.ComboBox cmbPoland;
+        private System.Windows.Forms.ComboBox cmbNetherlands;
+        private System.Windows.Forms.ComboBox cmbMalta;
+        private System.Windows.Forms.ComboBox cmbLuxemborg;
+        private System.Windows.Forms.ComboBox cmbLithuania;
+        private System.Windows.Forms.ComboBox cmbLativa;
+        private System.Windows.Forms.ComboBox cmbItaly;
+        private System.Windows.Forms.ComboBox cmbIreland;
+        private System.Windows.Forms.ComboBox cmbHungary;
+        private System.Windows.Forms.ComboBox cmbGreece;
+        private System.Windows.Forms.ComboBox cmbGermany;
+        private System.Windows.Forms.ComboBox cmbFrance;
+        private System.Windows.Forms.ComboBox cmbFinland;
+        private System.Windows.Forms.ComboBox cmbEstonia;
+        private System.Windows.Forms.ComboBox cmbDenmark;
+        private System.Windows.Forms.ComboBox cmbBelgium;
+        private System.Windows.Forms.ComboBox cmbSpain;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;

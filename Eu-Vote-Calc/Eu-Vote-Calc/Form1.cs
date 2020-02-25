@@ -90,32 +90,32 @@ namespace Eu_Vote_Calc
             }
             //adding all the comboboxes into a list to have them all bunched
             cmbCountriesList.Add(cmbAustria);
-            cmbCountriesList.Add(comboBox1);
-            cmbCountriesList.Add(comboBox2);
-            cmbCountriesList.Add(comboBox3);
-            cmbCountriesList.Add(comboBox4);
-            cmbCountriesList.Add(comboBox5);
-            cmbCountriesList.Add(comboBox6);
-            cmbCountriesList.Add(comboBox7);
-            cmbCountriesList.Add(comboBox8);
-            cmbCountriesList.Add(comboBox9);
-            cmbCountriesList.Add(comboBox10);
-            cmbCountriesList.Add(comboBox11);
-            cmbCountriesList.Add(comboBox12);
-            cmbCountriesList.Add(comboBox13);
-            cmbCountriesList.Add(comboBox14);
-            cmbCountriesList.Add(comboBox15);
-            cmbCountriesList.Add(comboBox16);
-            cmbCountriesList.Add(comboBox17);
-            cmbCountriesList.Add(comboBox18); 
-            cmbCountriesList.Add(comboBox19);
-            cmbCountriesList.Add(comboBox20);
-            cmbCountriesList.Add(comboBox21);
-            cmbCountriesList.Add(comboBox22);
-            cmbCountriesList.Add(comboBox23);
-            cmbCountriesList.Add(comboBox24);
-            cmbCountriesList.Add(comboBox25);
-            cmbCountriesList.Add(comboBox26);
+            cmbCountriesList.Add(cmbBelgium);
+            cmbCountriesList.Add(cmbBulgaria);
+            cmbCountriesList.Add(cmbCroatia);
+            cmbCountriesList.Add(cmbCyprus);
+            cmbCountriesList.Add(cmbCzechRepublic);
+            cmbCountriesList.Add(cmbDenmark);
+            cmbCountriesList.Add(cmbEstonia);
+            cmbCountriesList.Add(cmbFinland);
+            cmbCountriesList.Add(cmbFrance);
+            cmbCountriesList.Add(cmbGermany);
+            cmbCountriesList.Add(cmbGreece);
+            cmbCountriesList.Add(cmbHungary);
+            cmbCountriesList.Add(cmbIreland);
+            cmbCountriesList.Add(cmbItaly);
+            cmbCountriesList.Add(cmbLativa);
+            cmbCountriesList.Add(cmbLithuania);
+            cmbCountriesList.Add(cmbLuxemborg);
+            cmbCountriesList.Add(cmbMalta); 
+            cmbCountriesList.Add(cmbNetherlands);
+            cmbCountriesList.Add(cmbPoland);
+            cmbCountriesList.Add(cmbPortugal);
+            cmbCountriesList.Add(cmbRomania);
+            cmbCountriesList.Add(cmbSlovakia);
+            cmbCountriesList.Add(cmbSlovenia);
+            cmbCountriesList.Add(cmbSpain);
+            cmbCountriesList.Add(cmbSweden);
 
             for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
             {
