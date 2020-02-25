@@ -18,7 +18,9 @@ namespace Eu_Vote_Calc
 
     public partial class Form1 : Form
     {
-       
+        public List<CheckBox> chkCountriesList = new List<CheckBox>();//making them all together
+        List<Countries> countri = new List<Countries>();
+        List<ComboBox> cmbCountriesList = new List<ComboBox>();
         [Serializable]
         class Countries
         {
@@ -26,258 +28,138 @@ namespace Eu_Vote_Calc
             public bool Part;
             public int Vote;
             public int population;
+
+            public void changePart(bool input)
+            {
+                Part = input;
+            }
+            public void changeVote(int newVote)
+            {
+                Vote = newVote;
+            }
         }
         public Form1()
         {
-            
+
             InitializeComponent();
 
             // Tom H test comment.
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
+            //adding all the checkboxes into a list to have them all bunched
+            chkCountriesList.Add(chkAustria);
+            chkCountriesList.Add(chkBelgium);
+            chkCountriesList.Add(chkBulgaria);
+            chkCountriesList.Add(chkCrotia);
+            chkCountriesList.Add(chkCyprus);
+            chkCountriesList.Add(chkCzech_Republic);
+            chkCountriesList.Add(chkEstonia);
+            chkCountriesList.Add(chkDenmark);
+            chkCountriesList.Add(chkFinland);
+            chkCountriesList.Add(chkFrance);
+            chkCountriesList.Add(checkBox10);
+            chkCountriesList.Add(checkBox11);
+            chkCountriesList.Add(checkBox12);
+            chkCountriesList.Add(checkBox13);
+            chkCountriesList.Add(checkBox14);
+            chkCountriesList.Add(checkBox15);
+            chkCountriesList.Add(checkBox16);
+            chkCountriesList.Add(checkBox17);
+            chkCountriesList.Add(checkBox18);
+            chkCountriesList.Add(checkBox19);
+            chkCountriesList.Add(checkBox20);
+            chkCountriesList.Add(checkBox21);
+            chkCountriesList.Add(checkBox23);
+            chkCountriesList.Add(checkBox24);
+            chkCountriesList.Add(checkBox25);
+            chkCountriesList.Add(checkBox26);
 
-        }
-
-        public void button1_Click(object sender, EventArgs e)
-        {
             int x = 0;
-            Countries Austria = new Countries();
-            Austria.name = "Austria";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 8823054;
-            IFormatter formatter = new BinaryFormatter();
-            Stream stream = new FileStream((x.ToString()+".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Belgium";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 11413058;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Blugaria";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 7101859;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Croatia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 4154213;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Cyprus";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 845800;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Czech Republic";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 10610055;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Denmark";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 5781190;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Estonia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 1319133;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Finland";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 5516224;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "France";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 67187000;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Germany";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 82850000;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Greece";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 10768193;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Hungray";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 9771000;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Ireland";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 4921500;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Italy";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 60483973;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Latvia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 1929900;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Lithuanaia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 2807495;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Luxembourg";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 590667;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Malta";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 460297;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Netherlands";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 17261622;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Poland";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 38426000;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Portugal";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 10309573;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Romania";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 19638309;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Slovakia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 5441899;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Slovenia";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 2065890;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Spain";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 46549045;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Austria.name = "Sweden";
-            Austria.Part = true;
-            Austria.Vote = 3;
-            Austria.population = 10142686;
-            stream = new FileStream((x.ToString() + ".txt"), FileMode.Create, FileAccess.Write, FileShare.None);
-            formatter.Serialize(stream, Austria);
-            stream.Close();
-            x = x + 1;
-            Loading();
+            while (x < 27)
+            {
+                IFormatter formatter = new BinaryFormatter();
+
+                Stream stream = new FileStream((x.ToString() + ".txt"), FileMode.Open, FileAccess.Read);
+
+                Countries cs = (Countries)formatter.Deserialize(stream);
+                countri.Add(cs);//adding the class to the class, adding the info the each instance
+                stream.Close();
+                x = x + 1;                
+            }
+            //adding all the comboboxes into a list to have them all bunched
+            cmbCountriesList.Add(cmbAustria);
+            cmbCountriesList.Add(comboBox1);
+            cmbCountriesList.Add(comboBox2);
+            cmbCountriesList.Add(comboBox3);
+            cmbCountriesList.Add(comboBox4);
+            cmbCountriesList.Add(comboBox5);
+            cmbCountriesList.Add(comboBox6);
+            cmbCountriesList.Add(comboBox7);
+            cmbCountriesList.Add(comboBox8);
+            cmbCountriesList.Add(comboBox9);
+            cmbCountriesList.Add(comboBox10);
+            cmbCountriesList.Add(comboBox11);
+            cmbCountriesList.Add(comboBox12);
+            cmbCountriesList.Add(comboBox13);
+            cmbCountriesList.Add(comboBox14);
+            cmbCountriesList.Add(comboBox15);
+            cmbCountriesList.Add(comboBox16);
+            cmbCountriesList.Add(comboBox17);
+            cmbCountriesList.Add(comboBox18); 
+            cmbCountriesList.Add(comboBox19);
+            cmbCountriesList.Add(comboBox20);
+            cmbCountriesList.Add(comboBox21);
+            cmbCountriesList.Add(comboBox22);
+            cmbCountriesList.Add(comboBox23);
+            cmbCountriesList.Add(comboBox24);
+            cmbCountriesList.Add(comboBox25);
+            cmbCountriesList.Add(comboBox26);
+
+            for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
+            {
+                cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
+            }            
         }
-        public void Loading()
+
+        private void canVote(object sender, EventArgs e)
         {
-            IFormatter formatter = new BinaryFormatter();
+            int canVoteAmount = 0;//allows for all them to be in one number
+            //if they can vote the combo box isnt disabled 
+            for (int i = 0; i < 26; i++)//looping through all the countries
+            {
+                countri[i].changePart(chkCountriesList[i].Checked);//allowing for the form to not allow certain countries to vote
+                if (chkCountriesList[i].Checked == true)//if it they can vote
+                {
+                    canVoteAmount++;//add the the amount that can vote
+                    cmbCountriesList[i].Enabled = true;//making it so it can be used in case it was disabled before
+                }
+                else//if it was not checked
+                {
+                    cmbCountriesList[i].Enabled = false;//making it not function as the country isnt able to vote
+                }
+            }
+        }
 
-            Stream stream = new FileStream("Myfile.bin", FileMode.Open, FileAccess.Read);
-
-            Countries cs = (Countries)formatter.Deserialize(stream);
-
-            Console.WriteLine(cs.name);
-            stream.Close();
+        private void changeVote(object sender, EventArgs e)
+        {            
+            for (int i = 0; i < 26; i++)//getting their votes
+            {
+                //changing the class value in method to say what each country vote is
+                if (cmbCountriesList[i].Text == "Yes")//1 is yes
+                {
+                    countri[i].changeVote(1);
+                }
+                else if(cmbCountriesList[i].Text == "No")//2 is no
+                {
+                    countri[i].changeVote(2);
+                }
+                else//3 is abstain
+                {
+                    countri[i].changeVote(3);
+                }
+            }
         }
     }
 }

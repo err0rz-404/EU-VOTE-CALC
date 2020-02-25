@@ -63,6 +63,16 @@ namespace Eu_Vote_Calc.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap abstain_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("abstain-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Austria {
             get {
                 object obj = ResourceManager.GetObject("Austria", resourceCulture);
@@ -76,6 +86,26 @@ namespace Eu_Vote_Calc.Properties {
         internal static System.Drawing.Bitmap Belgium {
             get {
                 object obj = ResourceManager.GetObject("Belgium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue {
+            get {
+                object obj = ResourceManager.GetObject("blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blue1 {
+            get {
+                object obj = ResourceManager.GetObject("blue1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,6 +313,16 @@ namespace Eu_Vote_Calc.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap red_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("red-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Romania {
             get {
                 object obj = ResourceManager.GetObject("Romania", resourceCulture);
@@ -326,6 +366,16 @@ namespace Eu_Vote_Calc.Properties {
         internal static System.Drawing.Bitmap Sweden {
             get {
                 object obj = ResourceManager.GetObject("Sweden", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap upvote {
+            get {
+                object obj = ResourceManager.GetObject("upvote", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
