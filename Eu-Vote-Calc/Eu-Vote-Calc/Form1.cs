@@ -150,6 +150,7 @@ namespace Eu_Vote_Calc
 
             for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
             {
+                lblCountries[i].Text = countri[i].name;
                 cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
             }            
         }
