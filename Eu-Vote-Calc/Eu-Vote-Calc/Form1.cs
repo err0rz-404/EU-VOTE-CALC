@@ -21,6 +21,7 @@ namespace Eu_Vote_Calc
         public List<CheckBox> chkCountriesList = new List<CheckBox>();//making them all together
         List<Countries> countri = new List<Countries>();
         List<ComboBox> cmbCountriesList = new List<ComboBox>();
+        List<Label> lblCountries = new List<Label>();
         [Serializable]
         class Countries
         {
@@ -88,6 +89,36 @@ namespace Eu_Vote_Calc
                 stream.Close();
                 x = x + 1;                
             }
+
+            //adding all the labels into a list to have them all bunched
+            lblCountries.Add(lbl);
+            lblCountries.Add(label1);
+            lblCountries.Add(label2);
+            lblCountries.Add(label3);
+            lblCountries.Add(label4);
+            lblCountries.Add(label5);
+            lblCountries.Add(label6);
+            lblCountries.Add(label7);
+            lblCountries.Add(label8);
+            lblCountries.Add(label9);
+            lblCountries.Add(label10);
+            lblCountries.Add(label11);
+            lblCountries.Add(label12);
+            lblCountries.Add(label13);
+            lblCountries.Add(label14);
+            lblCountries.Add(label15);
+            lblCountries.Add(label16);
+            lblCountries.Add(label17);
+            lblCountries.Add(label18);
+            lblCountries.Add(label19);
+            lblCountries.Add(label20);
+            lblCountries.Add(label21);
+            lblCountries.Add(label22);
+            lblCountries.Add(label23);
+            lblCountries.Add(label24);
+            lblCountries.Add(label25);
+            lblCountries.Add(label26);
+
             //adding all the comboboxes into a list to have them all bunched
             cmbCountriesList.Add(cmbAustria);
             cmbCountriesList.Add(cmbBelgium);
