@@ -70,3 +70,21 @@ C:\Users\aaron\Downloads\New folder\EU-VOTE-CALC-cd5d08822e648bdd2f1b42c9f2590b6
 C:\Users\aaron\Downloads\New folder\EU-VOTE-CALC-cd5d08822e648bdd2f1b42c9f2590b6fc4fdbdc6\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csproj.GenerateResource.cache
 C:\Users\aaron\Downloads\New folder\EU-VOTE-CALC-cd5d08822e648bdd2f1b42c9f2590b6fc4fdbdc6\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.exe
 C:\Users\aaron\Downloads\New folder\EU-VOTE-CALC-cd5d08822e648bdd2f1b42c9f2590b6fc4fdbdc6\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.pdb
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csprojAssemblyReference.cache
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Form1.resources
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Properties.Resources.resources
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csproj.GenerateResource.cache
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.exe
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.pdb
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe.config
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe
+C:\Users\computing\Downloads\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.pdb
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csprojAssemblyReference.cache
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Form1.resources
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu_Vote_Calc.Properties.Resources.resources
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.csproj.GenerateResource.cache
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.exe
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\obj\Debug\Eu-Vote-Calc.pdb
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe.config
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.exe
+D:\EU-VOTE-CALC\Eu-Vote-Calc\Eu-Vote-Calc\bin\Debug\Eu-Vote-Calc.pdb

@@ -18,6 +18,7 @@ namespace Eu_Vote_Calc
 
     public partial class Form1 : Form
     {
+        private Timer timer1;
         public List<CheckBox> chkCountriesList = new List<CheckBox>();//making them all together
         List<Countries> countri = new List<Countries>();
         List<ComboBox> cmbCountriesList = new List<ComboBox>();
@@ -49,14 +50,29 @@ namespace Eu_Vote_Calc
         }
         public Form1()
         {
-
+            InitTimer();
             InitializeComponent();
 
             // Tom H test comment.
         }
-
+        public void InitTimer()
+        {
+            timer1 = new Timer();
+            timer1.Tick += new EventHandler(timer1_Tick);
+            timer1.Interval = 100; // in miliseconds
+            timer1.Start();
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            CalcUpdate();
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
+            CMBVoteType.Items.Add("Qualified majority");
+            CMBVoteType.Items.Add("Reinforced qualified majority");
+            CMBVoteType.Items.Add("Simple majority");
+            CMBVoteType.Items.Add("Unanimity");
+           
             //adding all the checkboxes into a list to have them all bunched
             chkCountriesList.Add(chkAustria);
             chkCountriesList.Add(chkBelgium);
@@ -95,7 +111,7 @@ namespace Eu_Vote_Calc
                 Countries cs = (Countries)formatter.Deserialize(stream);
                 countri.Add(cs);//adding the class to the class, adding the info the each instance
                 stream.Close();
-                x = x + 1;                
+                x = x + 1;
             }
 
             //adding all the labels into a list to have them all bunched
@@ -146,7 +162,7 @@ namespace Eu_Vote_Calc
             cmbCountriesList.Add(cmbLativa);
             cmbCountriesList.Add(cmbLithuania);
             cmbCountriesList.Add(cmbLuxemborg);
-            cmbCountriesList.Add(cmbMalta); 
+            cmbCountriesList.Add(cmbMalta);
             cmbCountriesList.Add(cmbNetherlands);
             cmbCountriesList.Add(cmbPoland);
             cmbCountriesList.Add(cmbPortugal);
@@ -160,7 +176,7 @@ namespace Eu_Vote_Calc
             {
                 lblCountries[i].Text = countri[i].printName();
                 cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
-            }            
+            }
         }
 
         private void canVote(object sender, EventArgs e)
@@ -183,7 +199,7 @@ namespace Eu_Vote_Calc
         }
 
         private void changeVote(object sender, EventArgs e)
-        {            
+        {
             for (int i = 0; i < 26; i++)//getting their votes
             {
                 //changing the class value in method to say what each country vote is
@@ -191,7 +207,7 @@ namespace Eu_Vote_Calc
                 {
                     countri[i].changeVote(1);
                 }
-                else if(cmbCountriesList[i].Text == "No")//2 is no
+                else if (cmbCountriesList[i].Text == "No")//2 is no
                 {
                     countri[i].changeVote(2);
                 }
@@ -201,18 +217,75 @@ namespace Eu_Vote_Calc
                 }
             }
         }
-
-        public void majQualifiedVote()
+        public void CalcUpdate()
         {
-            //looping
+            int TotalCountries = 0;
+            int yesCountries = 0;
+            int noCountries = 0;
+            int absCountries = 0;
+            int votetype = 1;
             for (int i = 0; i < 26; i++)
             {
                 //check to see if they can vote
-                if(chkCountriesList[i].Checked == true)
+                if (chkCountriesList[i].Checked == true )
                 {
-
+                    TotalCountries++;
+                    if (cmbCountriesList[i].Text == "Yes")
+                    {
+                        yesCountries++;
+                    }
+                    else if (cmbCountriesList[i].Text == "No")
+                    {
+                        noCountries++;
+                    }
+                    else
+                    {
+                        absCountries++;
+                    }
                 }
             }
+            if(CMBVoteType.SelectedIndex == 0)
+            {
+                votetype = 1;
+            }
+            else if (CMBVoteType.SelectedIndex == 1)
+            {
+                votetype = 2;
+            }
+            else if (CMBVoteType.SelectedIndex == 2)
+            {
+                votetype = 3;
+            }
+            else if (CMBVoteType.SelectedIndex == 3)
+            {
+                votetype = 4;
+            }
+            else
+            {
+                CMBVoteType.SelectedIndex = 0;
+            }
+            label27.Text = (TotalCountries+1).ToString();
+            float yes;
+            float no;
+            float abs;
+            float total = (TotalCountries+1) * 1.0f;
+            yes = (yesCountries / total) * 100;
+            no = (noCountries / total) * 100;
+            abs = (absCountries / total) * 100;// comments to 100
+            pictureBox28.Width = (int)(yes * 6);
+            pictureBox29.Width = (int)(no * 6);
+            pictureBox30.Width = (int)(abs * 6);
+        }
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
