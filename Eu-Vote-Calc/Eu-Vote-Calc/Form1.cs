@@ -25,18 +25,26 @@ namespace Eu_Vote_Calc
         [Serializable]
         class Countries
         {
-            public string name;
+            private string name;
             public bool Part;
             public int Vote;
-            public int population;
+            private int population;
 
             public void changePart(bool input)
             {
-                Part = input;
+                Part = input;//used to alter if the country can vote or not
             }
             public void changeVote(int newVote)
             {
-                Vote = newVote;
+                Vote = newVote;//used to the countries vote
+            }
+            public string printName()
+            {
+                return name;//used to output name 
+            }
+            public int printPopulation()
+            {
+                return population;//used to output population
             }
         }
         public Form1()
@@ -150,7 +158,7 @@ namespace Eu_Vote_Calc
 
             for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
             {
-                lblCountries[i].Text = countri[i].name;
+                lblCountries[i].Text = countri[i].printName();
                 cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
             }            
         }
@@ -200,7 +208,7 @@ namespace Eu_Vote_Calc
             for (int i = 0; i < 26; i++)
             {
                 //check to see if they can vote
-                if(chkCountriesList[i].Checked == )
+                if(chkCountriesList[i].Checked == true)
                 {
 
                 }
