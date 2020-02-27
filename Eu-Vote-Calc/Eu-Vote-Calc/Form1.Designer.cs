@@ -70,45 +70,13 @@
             this.chkBulgaria = new System.Windows.Forms.CheckBox();
             this.lblEstonia = new System.Windows.Forms.Label();
             this.cmbLuxemborg = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel11 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
             this.cmbLithuania = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel10 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
             this.cmbLativa = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel9 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.cmbItaly = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
             this.cmbIreland = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
             this.cmbHungary = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
             this.cmbGreece = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
             this.cmbGermany = new System.Windows.Forms.ComboBox();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.cmbFrance = new System.Windows.Forms.ComboBox();
             this.chkCroatia = new System.Windows.Forms.CheckBox();
             this.cmbFinland = new System.Windows.Forms.ComboBox();
@@ -164,18 +132,6 @@
             this.pbSlovenia = new System.Windows.Forms.PictureBox();
             this.pbSpain = new System.Windows.Forms.PictureBox();
             this.pbSweden = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
             this.lblBelgium = new System.Windows.Forms.Label();
             this.cmbAustria = new System.Windows.Forms.ComboBox();
             this.cmbBelgium = new System.Windows.Forms.ComboBox();
@@ -189,7 +145,7 @@
             this.lblVoteAbstain = new System.Windows.Forms.Label();
             this.lblVoteNo = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.label27 = new System.Windows.Forms.Label();
+            this.lblTotalAmountVoting = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.lblVoteRule = new System.Windows.Forms.Label();
             this.lblVoteYes = new System.Windows.Forms.Label();
@@ -211,15 +167,37 @@
             this.pictureBox34 = new System.Windows.Forms.PictureBox();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel11.SuspendLayout();
-            this.flowLayoutPanel10.SuspendLayout();
-            this.flowLayoutPanel9.SuspendLayout();
-            this.flowLayoutPanel8.SuspendLayout();
-            this.flowLayoutPanel7.SuspendLayout();
-            this.flowLayoutPanel6.SuspendLayout();
-            this.flowLayoutPanel5.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbAustria)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBelgium)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBulgaria)).BeginInit();
@@ -247,9 +225,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbSlovenia)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSpain)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSweden)).BeginInit();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
@@ -270,10 +245,33 @@
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 269F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 58F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 113F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 248F));
+            this.tableLayoutPanel1.Controls.Add(this.label34, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label15, 3, 15);
+            this.tableLayoutPanel1.Controls.Add(this.label16, 3, 16);
+            this.tableLayoutPanel1.Controls.Add(this.label17, 3, 17);
+            this.tableLayoutPanel1.Controls.Add(this.label18, 3, 18);
+            this.tableLayoutPanel1.Controls.Add(this.label19, 3, 19);
+            this.tableLayoutPanel1.Controls.Add(this.label20, 3, 20);
+            this.tableLayoutPanel1.Controls.Add(this.label21, 3, 21);
+            this.tableLayoutPanel1.Controls.Add(this.label22, 3, 22);
+            this.tableLayoutPanel1.Controls.Add(this.label23, 3, 23);
+            this.tableLayoutPanel1.Controls.Add(this.label24, 3, 24);
+            this.tableLayoutPanel1.Controls.Add(this.label25, 3, 25);
+            this.tableLayoutPanel1.Controls.Add(this.label26, 3, 26);
+            this.tableLayoutPanel1.Controls.Add(this.label27, 3, 27);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 3, 7);
+            this.tableLayoutPanel1.Controls.Add(this.label8, 3, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 3, 9);
+            this.tableLayoutPanel1.Controls.Add(this.label3, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label4, 3, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 3, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label6, 3, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label2, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label1, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.lblDenmark, 2, 7);
             this.tableLayoutPanel1.Controls.Add(this.lblSweden, 2, 27);
             this.tableLayoutPanel1.Controls.Add(this.cmbSweden, 4, 27);
@@ -315,21 +313,13 @@
             this.tableLayoutPanel1.Controls.Add(this.chkBulgaria, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblEstonia, 2, 8);
             this.tableLayoutPanel1.Controls.Add(this.cmbLuxemborg, 4, 18);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel11, 3, 11);
             this.tableLayoutPanel1.Controls.Add(this.cmbLithuania, 4, 17);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel10, 3, 10);
             this.tableLayoutPanel1.Controls.Add(this.cmbLativa, 4, 16);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel9, 3, 9);
             this.tableLayoutPanel1.Controls.Add(this.cmbItaly, 4, 15);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel8, 3, 8);
             this.tableLayoutPanel1.Controls.Add(this.cmbIreland, 4, 14);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel7, 3, 7);
             this.tableLayoutPanel1.Controls.Add(this.cmbHungary, 4, 13);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel6, 3, 6);
             this.tableLayoutPanel1.Controls.Add(this.cmbGreece, 4, 12);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel5, 3, 5);
             this.tableLayoutPanel1.Controls.Add(this.cmbGermany, 4, 11);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel4, 3, 4);
             this.tableLayoutPanel1.Controls.Add(this.cmbFrance, 4, 10);
             this.tableLayoutPanel1.Controls.Add(this.chkCroatia, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.cmbFinland, 4, 9);
@@ -385,14 +375,18 @@
             this.tableLayoutPanel1.Controls.Add(this.pbSlovenia, 1, 25);
             this.tableLayoutPanel1.Controls.Add(this.pbSpain, 1, 26);
             this.tableLayoutPanel1.Controls.Add(this.pbSweden, 1, 27);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel1, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel2, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.flowLayoutPanel3, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.lblBelgium, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.cmbAustria, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.cmbBelgium, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.cmbSpain, 4, 26);
             this.tableLayoutPanel1.Controls.Add(this.lblAustria, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label14, 3, 14);
+            this.tableLayoutPanel1.Controls.Add(this.label13, 3, 13);
+            this.tableLayoutPanel1.Controls.Add(this.label12, 3, 12);
+            this.tableLayoutPanel1.Controls.Add(this.label11, 3, 11);
+            this.tableLayoutPanel1.Controls.Add(this.label10, 3, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label29, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label35, 4, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 28;
@@ -430,7 +424,7 @@
             // lblDenmark
             // 
             this.lblDenmark.AutoSize = true;
-            this.lblDenmark.Location = new System.Drawing.Point(66, 190);
+            this.lblDenmark.Location = new System.Drawing.Point(84, 190);
             this.lblDenmark.Name = "lblDenmark";
             this.lblDenmark.Size = new System.Drawing.Size(9, 13);
             this.lblDenmark.TabIndex = 60;
@@ -439,7 +433,7 @@
             // lblSweden
             // 
             this.lblSweden.AutoSize = true;
-            this.lblSweden.Location = new System.Drawing.Point(66, 730);
+            this.lblSweden.Location = new System.Drawing.Point(84, 730);
             this.lblSweden.Name = "lblSweden";
             this.lblSweden.Size = new System.Drawing.Size(9, 13);
             this.lblSweden.TabIndex = 75;
@@ -453,7 +447,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbSweden.Location = new System.Drawing.Point(268, 733);
+            this.cmbSweden.Location = new System.Drawing.Point(290, 733);
             this.cmbSweden.Name = "cmbSweden";
             this.cmbSweden.Size = new System.Drawing.Size(121, 21);
             this.cmbSweden.TabIndex = 61;
@@ -461,7 +455,7 @@
             // lblSpain
             // 
             this.lblSpain.AutoSize = true;
-            this.lblSpain.Location = new System.Drawing.Point(66, 703);
+            this.lblSpain.Location = new System.Drawing.Point(84, 703);
             this.lblSpain.Name = "lblSpain";
             this.lblSpain.Size = new System.Drawing.Size(9, 13);
             this.lblSpain.TabIndex = 74;
@@ -470,7 +464,7 @@
             // lblCzech_Republic
             // 
             this.lblCzech_Republic.AutoSize = true;
-            this.lblCzech_Republic.Location = new System.Drawing.Point(66, 163);
+            this.lblCzech_Republic.Location = new System.Drawing.Point(84, 163);
             this.lblCzech_Republic.Name = "lblCzech_Republic";
             this.lblCzech_Republic.Size = new System.Drawing.Size(9, 13);
             this.lblCzech_Republic.TabIndex = 59;
@@ -479,7 +473,7 @@
             // lblSlovenia
             // 
             this.lblSlovenia.AutoSize = true;
-            this.lblSlovenia.Location = new System.Drawing.Point(66, 676);
+            this.lblSlovenia.Location = new System.Drawing.Point(84, 676);
             this.lblSlovenia.Name = "lblSlovenia";
             this.lblSlovenia.Size = new System.Drawing.Size(9, 13);
             this.lblSlovenia.TabIndex = 73;
@@ -493,7 +487,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbSlovenia.Location = new System.Drawing.Point(268, 679);
+            this.cmbSlovenia.Location = new System.Drawing.Point(290, 679);
             this.cmbSlovenia.Name = "cmbSlovenia";
             this.cmbSlovenia.Size = new System.Drawing.Size(121, 21);
             this.cmbSlovenia.TabIndex = 78;
@@ -501,7 +495,7 @@
             // lblSlovakia
             // 
             this.lblSlovakia.AutoSize = true;
-            this.lblSlovakia.Location = new System.Drawing.Point(66, 649);
+            this.lblSlovakia.Location = new System.Drawing.Point(84, 649);
             this.lblSlovakia.Name = "lblSlovakia";
             this.lblSlovakia.Size = new System.Drawing.Size(9, 13);
             this.lblSlovakia.TabIndex = 72;
@@ -510,7 +504,7 @@
             // lblCyprus
             // 
             this.lblCyprus.AutoSize = true;
-            this.lblCyprus.Location = new System.Drawing.Point(66, 136);
+            this.lblCyprus.Location = new System.Drawing.Point(84, 136);
             this.lblCyprus.Name = "lblCyprus";
             this.lblCyprus.Size = new System.Drawing.Size(9, 13);
             this.lblCyprus.TabIndex = 58;
@@ -519,7 +513,7 @@
             // lblRomania
             // 
             this.lblRomania.AutoSize = true;
-            this.lblRomania.Location = new System.Drawing.Point(66, 622);
+            this.lblRomania.Location = new System.Drawing.Point(84, 622);
             this.lblRomania.Name = "lblRomania";
             this.lblRomania.Size = new System.Drawing.Size(9, 13);
             this.lblRomania.TabIndex = 71;
@@ -533,7 +527,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbCroatia.Location = new System.Drawing.Point(268, 112);
+            this.cmbCroatia.Location = new System.Drawing.Point(290, 112);
             this.cmbCroatia.Name = "cmbCroatia";
             this.cmbCroatia.Size = new System.Drawing.Size(121, 21);
             this.cmbCroatia.TabIndex = 60;
@@ -541,7 +535,7 @@
             // lblPortugal
             // 
             this.lblPortugal.AutoSize = true;
-            this.lblPortugal.Location = new System.Drawing.Point(66, 595);
+            this.lblPortugal.Location = new System.Drawing.Point(84, 595);
             this.lblPortugal.Name = "lblPortugal";
             this.lblPortugal.Size = new System.Drawing.Size(9, 13);
             this.lblPortugal.TabIndex = 70;
@@ -550,7 +544,7 @@
             // lblCroatia
             // 
             this.lblCroatia.AutoSize = true;
-            this.lblCroatia.Location = new System.Drawing.Point(66, 109);
+            this.lblCroatia.Location = new System.Drawing.Point(84, 109);
             this.lblCroatia.Name = "lblCroatia";
             this.lblCroatia.Size = new System.Drawing.Size(9, 13);
             this.lblCroatia.TabIndex = 57;
@@ -559,7 +553,7 @@
             // lblPoland
             // 
             this.lblPoland.AutoSize = true;
-            this.lblPoland.Location = new System.Drawing.Point(66, 568);
+            this.lblPoland.Location = new System.Drawing.Point(84, 568);
             this.lblPoland.Name = "lblPoland";
             this.lblPoland.Size = new System.Drawing.Size(9, 13);
             this.lblPoland.TabIndex = 69;
@@ -573,7 +567,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbSlovakia.Location = new System.Drawing.Point(268, 652);
+            this.cmbSlovakia.Location = new System.Drawing.Point(290, 652);
             this.cmbSlovakia.Name = "cmbSlovakia";
             this.cmbSlovakia.Size = new System.Drawing.Size(121, 21);
             this.cmbSlovakia.TabIndex = 77;
@@ -581,7 +575,7 @@
             // lblNetherlands
             // 
             this.lblNetherlands.AutoSize = true;
-            this.lblNetherlands.Location = new System.Drawing.Point(66, 541);
+            this.lblNetherlands.Location = new System.Drawing.Point(84, 541);
             this.lblNetherlands.Name = "lblNetherlands";
             this.lblNetherlands.Size = new System.Drawing.Size(9, 13);
             this.lblNetherlands.TabIndex = 68;
@@ -590,7 +584,7 @@
             // lblBulgaria
             // 
             this.lblBulgaria.AutoSize = true;
-            this.lblBulgaria.Location = new System.Drawing.Point(66, 82);
+            this.lblBulgaria.Location = new System.Drawing.Point(84, 82);
             this.lblBulgaria.Name = "lblBulgaria";
             this.lblBulgaria.Size = new System.Drawing.Size(9, 13);
             this.lblBulgaria.TabIndex = 56;
@@ -599,7 +593,7 @@
             // lblMalta
             // 
             this.lblMalta.AutoSize = true;
-            this.lblMalta.Location = new System.Drawing.Point(66, 514);
+            this.lblMalta.Location = new System.Drawing.Point(84, 514);
             this.lblMalta.Name = "lblMalta";
             this.lblMalta.Size = new System.Drawing.Size(9, 13);
             this.lblMalta.TabIndex = 66;
@@ -608,7 +602,7 @@
             // lblLuxembourg
             // 
             this.lblLuxembourg.AutoSize = true;
-            this.lblLuxembourg.Location = new System.Drawing.Point(66, 487);
+            this.lblLuxembourg.Location = new System.Drawing.Point(84, 487);
             this.lblLuxembourg.Name = "lblLuxembourg";
             this.lblLuxembourg.Size = new System.Drawing.Size(9, 13);
             this.lblLuxembourg.TabIndex = 67;
@@ -622,7 +616,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbCyprus.Location = new System.Drawing.Point(268, 139);
+            this.cmbCyprus.Location = new System.Drawing.Point(290, 139);
             this.cmbCyprus.Name = "cmbCyprus";
             this.cmbCyprus.Size = new System.Drawing.Size(121, 21);
             this.cmbCyprus.TabIndex = 61;
@@ -635,7 +629,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbRomania.Location = new System.Drawing.Point(268, 625);
+            this.cmbRomania.Location = new System.Drawing.Point(290, 625);
             this.cmbRomania.Name = "cmbRomania";
             this.cmbRomania.Size = new System.Drawing.Size(121, 21);
             this.cmbRomania.TabIndex = 76;
@@ -643,7 +637,7 @@
             // lblLithuania
             // 
             this.lblLithuania.AutoSize = true;
-            this.lblLithuania.Location = new System.Drawing.Point(66, 460);
+            this.lblLithuania.Location = new System.Drawing.Point(84, 460);
             this.lblLithuania.Name = "lblLithuania";
             this.lblLithuania.Size = new System.Drawing.Size(9, 13);
             this.lblLithuania.TabIndex = 65;
@@ -657,7 +651,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbCzechRepublic.Location = new System.Drawing.Point(268, 166);
+            this.cmbCzechRepublic.Location = new System.Drawing.Point(290, 166);
             this.cmbCzechRepublic.Name = "cmbCzechRepublic";
             this.cmbCzechRepublic.Size = new System.Drawing.Size(121, 21);
             this.cmbCzechRepublic.TabIndex = 62;
@@ -665,7 +659,7 @@
             // lblLatvia
             // 
             this.lblLatvia.AutoSize = true;
-            this.lblLatvia.Location = new System.Drawing.Point(66, 433);
+            this.lblLatvia.Location = new System.Drawing.Point(84, 433);
             this.lblLatvia.Name = "lblLatvia";
             this.lblLatvia.Size = new System.Drawing.Size(9, 13);
             this.lblLatvia.TabIndex = 64;
@@ -679,7 +673,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbPortugal.Location = new System.Drawing.Point(268, 598);
+            this.cmbPortugal.Location = new System.Drawing.Point(290, 598);
             this.cmbPortugal.Name = "cmbPortugal";
             this.cmbPortugal.Size = new System.Drawing.Size(121, 21);
             this.cmbPortugal.TabIndex = 75;
@@ -687,7 +681,7 @@
             // lblItaly
             // 
             this.lblItaly.AutoSize = true;
-            this.lblItaly.Location = new System.Drawing.Point(66, 406);
+            this.lblItaly.Location = new System.Drawing.Point(84, 406);
             this.lblItaly.Name = "lblItaly";
             this.lblItaly.Size = new System.Drawing.Size(9, 13);
             this.lblItaly.TabIndex = 63;
@@ -701,7 +695,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbBulgaria.Location = new System.Drawing.Point(268, 85);
+            this.cmbBulgaria.Location = new System.Drawing.Point(290, 85);
             this.cmbBulgaria.Name = "cmbBulgaria";
             this.cmbBulgaria.Size = new System.Drawing.Size(121, 21);
             this.cmbBulgaria.TabIndex = 60;
@@ -709,7 +703,7 @@
             // lblIreland
             // 
             this.lblIreland.AutoSize = true;
-            this.lblIreland.Location = new System.Drawing.Point(66, 379);
+            this.lblIreland.Location = new System.Drawing.Point(84, 379);
             this.lblIreland.Name = "lblIreland";
             this.lblIreland.Size = new System.Drawing.Size(9, 13);
             this.lblIreland.TabIndex = 62;
@@ -723,7 +717,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbPoland.Location = new System.Drawing.Point(268, 571);
+            this.cmbPoland.Location = new System.Drawing.Point(290, 571);
             this.cmbPoland.Name = "cmbPoland";
             this.cmbPoland.Size = new System.Drawing.Size(121, 21);
             this.cmbPoland.TabIndex = 74;
@@ -731,7 +725,7 @@
             // lblHungary
             // 
             this.lblHungary.AutoSize = true;
-            this.lblHungary.Location = new System.Drawing.Point(66, 352);
+            this.lblHungary.Location = new System.Drawing.Point(84, 352);
             this.lblHungary.Name = "lblHungary";
             this.lblHungary.Size = new System.Drawing.Size(9, 13);
             this.lblHungary.TabIndex = 61;
@@ -753,7 +747,7 @@
             // lblGreece
             // 
             this.lblGreece.AutoSize = true;
-            this.lblGreece.Location = new System.Drawing.Point(66, 325);
+            this.lblGreece.Location = new System.Drawing.Point(84, 325);
             this.lblGreece.Name = "lblGreece";
             this.lblGreece.Size = new System.Drawing.Size(9, 13);
             this.lblGreece.TabIndex = 60;
@@ -767,7 +761,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbNetherlands.Location = new System.Drawing.Point(268, 544);
+            this.cmbNetherlands.Location = new System.Drawing.Point(290, 544);
             this.cmbNetherlands.Name = "cmbNetherlands";
             this.cmbNetherlands.Size = new System.Drawing.Size(121, 21);
             this.cmbNetherlands.TabIndex = 73;
@@ -775,7 +769,7 @@
             // lblGermany
             // 
             this.lblGermany.AutoSize = true;
-            this.lblGermany.Location = new System.Drawing.Point(66, 298);
+            this.lblGermany.Location = new System.Drawing.Point(84, 298);
             this.lblGermany.Name = "lblGermany";
             this.lblGermany.Size = new System.Drawing.Size(9, 13);
             this.lblGermany.TabIndex = 59;
@@ -796,7 +790,7 @@
             // lblFrance
             // 
             this.lblFrance.AutoSize = true;
-            this.lblFrance.Location = new System.Drawing.Point(66, 271);
+            this.lblFrance.Location = new System.Drawing.Point(84, 271);
             this.lblFrance.Name = "lblFrance";
             this.lblFrance.Size = new System.Drawing.Size(9, 13);
             this.lblFrance.TabIndex = 58;
@@ -810,7 +804,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbMalta.Location = new System.Drawing.Point(268, 517);
+            this.cmbMalta.Location = new System.Drawing.Point(290, 517);
             this.cmbMalta.Name = "cmbMalta";
             this.cmbMalta.Size = new System.Drawing.Size(121, 21);
             this.cmbMalta.TabIndex = 72;
@@ -818,7 +812,7 @@
             // lblFinland
             // 
             this.lblFinland.AutoSize = true;
-            this.lblFinland.Location = new System.Drawing.Point(66, 244);
+            this.lblFinland.Location = new System.Drawing.Point(84, 244);
             this.lblFinland.Name = "lblFinland";
             this.lblFinland.Size = new System.Drawing.Size(9, 13);
             this.lblFinland.TabIndex = 57;
@@ -839,7 +833,7 @@
             // lblEstonia
             // 
             this.lblEstonia.AutoSize = true;
-            this.lblEstonia.Location = new System.Drawing.Point(66, 217);
+            this.lblEstonia.Location = new System.Drawing.Point(84, 217);
             this.lblEstonia.Name = "lblEstonia";
             this.lblEstonia.Size = new System.Drawing.Size(9, 13);
             this.lblEstonia.TabIndex = 56;
@@ -853,51 +847,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbLuxemborg.Location = new System.Drawing.Point(268, 490);
+            this.cmbLuxemborg.Location = new System.Drawing.Point(290, 490);
             this.cmbLuxemborg.Name = "cmbLuxemborg";
             this.cmbLuxemborg.Size = new System.Drawing.Size(121, 21);
             this.cmbLuxemborg.TabIndex = 71;
-            // 
-            // flowLayoutPanel11
-            // 
-            this.flowLayoutPanel11.Controls.Add(this.button32);
-            this.flowLayoutPanel11.Controls.Add(this.button33);
-            this.flowLayoutPanel11.Controls.Add(this.button34);
-            this.flowLayoutPanel11.Location = new System.Drawing.Point(167, 301);
-            this.flowLayoutPanel11.Name = "flowLayoutPanel11";
-            this.flowLayoutPanel11.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel11.TabIndex = 58;
-            // 
-            // button32
-            // 
-            this.button32.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button32.Location = new System.Drawing.Point(3, 3);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(25, 23);
-            this.button32.TabIndex = 0;
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button33.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button33.Location = new System.Drawing.Point(34, 3);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(25, 23);
-            this.button33.TabIndex = 1;
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button34.Location = new System.Drawing.Point(65, 3);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(25, 23);
-            this.button34.TabIndex = 2;
-            this.button34.UseVisualStyleBackColor = true;
             // 
             // cmbLithuania
             // 
@@ -907,51 +860,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbLithuania.Location = new System.Drawing.Point(268, 463);
+            this.cmbLithuania.Location = new System.Drawing.Point(290, 463);
             this.cmbLithuania.Name = "cmbLithuania";
             this.cmbLithuania.Size = new System.Drawing.Size(121, 21);
             this.cmbLithuania.TabIndex = 70;
-            // 
-            // flowLayoutPanel10
-            // 
-            this.flowLayoutPanel10.Controls.Add(this.button29);
-            this.flowLayoutPanel10.Controls.Add(this.button30);
-            this.flowLayoutPanel10.Controls.Add(this.button31);
-            this.flowLayoutPanel10.Location = new System.Drawing.Point(167, 274);
-            this.flowLayoutPanel10.Name = "flowLayoutPanel10";
-            this.flowLayoutPanel10.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel10.TabIndex = 58;
-            // 
-            // button29
-            // 
-            this.button29.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button29.Location = new System.Drawing.Point(3, 3);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(25, 23);
-            this.button29.TabIndex = 0;
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            this.button30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button30.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button30.Location = new System.Drawing.Point(34, 3);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(25, 23);
-            this.button30.TabIndex = 1;
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button31.Location = new System.Drawing.Point(65, 3);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(25, 23);
-            this.button31.TabIndex = 2;
-            this.button31.UseVisualStyleBackColor = true;
             // 
             // cmbLativa
             // 
@@ -961,51 +873,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbLativa.Location = new System.Drawing.Point(268, 436);
+            this.cmbLativa.Location = new System.Drawing.Point(290, 436);
             this.cmbLativa.Name = "cmbLativa";
             this.cmbLativa.Size = new System.Drawing.Size(121, 21);
             this.cmbLativa.TabIndex = 69;
-            // 
-            // flowLayoutPanel9
-            // 
-            this.flowLayoutPanel9.Controls.Add(this.button26);
-            this.flowLayoutPanel9.Controls.Add(this.button27);
-            this.flowLayoutPanel9.Controls.Add(this.button28);
-            this.flowLayoutPanel9.Location = new System.Drawing.Point(167, 247);
-            this.flowLayoutPanel9.Name = "flowLayoutPanel9";
-            this.flowLayoutPanel9.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel9.TabIndex = 58;
-            // 
-            // button26
-            // 
-            this.button26.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button26.Location = new System.Drawing.Point(3, 3);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(25, 23);
-            this.button26.TabIndex = 0;
-            this.button26.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            this.button27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button27.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button27.Location = new System.Drawing.Point(34, 3);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(25, 23);
-            this.button27.TabIndex = 1;
-            this.button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            this.button28.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button28.Location = new System.Drawing.Point(65, 3);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(25, 23);
-            this.button28.TabIndex = 2;
-            this.button28.UseVisualStyleBackColor = true;
             // 
             // cmbItaly
             // 
@@ -1015,51 +886,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbItaly.Location = new System.Drawing.Point(268, 409);
+            this.cmbItaly.Location = new System.Drawing.Point(290, 409);
             this.cmbItaly.Name = "cmbItaly";
             this.cmbItaly.Size = new System.Drawing.Size(121, 21);
             this.cmbItaly.TabIndex = 68;
-            // 
-            // flowLayoutPanel8
-            // 
-            this.flowLayoutPanel8.Controls.Add(this.button23);
-            this.flowLayoutPanel8.Controls.Add(this.button24);
-            this.flowLayoutPanel8.Controls.Add(this.button25);
-            this.flowLayoutPanel8.Location = new System.Drawing.Point(167, 220);
-            this.flowLayoutPanel8.Name = "flowLayoutPanel8";
-            this.flowLayoutPanel8.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel8.TabIndex = 58;
-            // 
-            // button23
-            // 
-            this.button23.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button23.Location = new System.Drawing.Point(3, 3);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(25, 23);
-            this.button23.TabIndex = 0;
-            this.button23.UseVisualStyleBackColor = true;
-            // 
-            // button24
-            // 
-            this.button24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button24.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button24.Location = new System.Drawing.Point(34, 3);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(25, 23);
-            this.button24.TabIndex = 1;
-            this.button24.UseVisualStyleBackColor = true;
-            // 
-            // button25
-            // 
-            this.button25.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button25.Location = new System.Drawing.Point(65, 3);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(25, 23);
-            this.button25.TabIndex = 2;
-            this.button25.UseVisualStyleBackColor = true;
             // 
             // cmbIreland
             // 
@@ -1069,51 +899,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbIreland.Location = new System.Drawing.Point(268, 382);
+            this.cmbIreland.Location = new System.Drawing.Point(290, 382);
             this.cmbIreland.Name = "cmbIreland";
             this.cmbIreland.Size = new System.Drawing.Size(121, 21);
             this.cmbIreland.TabIndex = 67;
-            // 
-            // flowLayoutPanel7
-            // 
-            this.flowLayoutPanel7.Controls.Add(this.button20);
-            this.flowLayoutPanel7.Controls.Add(this.button21);
-            this.flowLayoutPanel7.Controls.Add(this.button22);
-            this.flowLayoutPanel7.Location = new System.Drawing.Point(167, 193);
-            this.flowLayoutPanel7.Name = "flowLayoutPanel7";
-            this.flowLayoutPanel7.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel7.TabIndex = 58;
-            // 
-            // button20
-            // 
-            this.button20.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button20.Location = new System.Drawing.Point(3, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(25, 23);
-            this.button20.TabIndex = 0;
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button21.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button21.Location = new System.Drawing.Point(34, 3);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(25, 23);
-            this.button21.TabIndex = 1;
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // button22
-            // 
-            this.button22.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button22.Location = new System.Drawing.Point(65, 3);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(25, 23);
-            this.button22.TabIndex = 2;
-            this.button22.UseVisualStyleBackColor = true;
             // 
             // cmbHungary
             // 
@@ -1123,51 +912,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbHungary.Location = new System.Drawing.Point(268, 355);
+            this.cmbHungary.Location = new System.Drawing.Point(290, 355);
             this.cmbHungary.Name = "cmbHungary";
             this.cmbHungary.Size = new System.Drawing.Size(121, 21);
             this.cmbHungary.TabIndex = 66;
-            // 
-            // flowLayoutPanel6
-            // 
-            this.flowLayoutPanel6.Controls.Add(this.button17);
-            this.flowLayoutPanel6.Controls.Add(this.button18);
-            this.flowLayoutPanel6.Controls.Add(this.button19);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(167, 166);
-            this.flowLayoutPanel6.Name = "flowLayoutPanel6";
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel6.TabIndex = 58;
-            // 
-            // button17
-            // 
-            this.button17.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button17.Location = new System.Drawing.Point(3, 3);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(25, 23);
-            this.button17.TabIndex = 0;
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button18.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button18.Location = new System.Drawing.Point(34, 3);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(25, 23);
-            this.button18.TabIndex = 1;
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button19.Location = new System.Drawing.Point(65, 3);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(25, 23);
-            this.button19.TabIndex = 2;
-            this.button19.UseVisualStyleBackColor = true;
             // 
             // cmbGreece
             // 
@@ -1177,51 +925,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbGreece.Location = new System.Drawing.Point(268, 328);
+            this.cmbGreece.Location = new System.Drawing.Point(290, 328);
             this.cmbGreece.Name = "cmbGreece";
             this.cmbGreece.Size = new System.Drawing.Size(121, 21);
             this.cmbGreece.TabIndex = 65;
-            // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.Controls.Add(this.button14);
-            this.flowLayoutPanel5.Controls.Add(this.button15);
-            this.flowLayoutPanel5.Controls.Add(this.button16);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(167, 139);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel5.TabIndex = 58;
-            // 
-            // button14
-            // 
-            this.button14.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.Location = new System.Drawing.Point(3, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(25, 23);
-            this.button14.TabIndex = 0;
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button15.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.Location = new System.Drawing.Point(34, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(25, 23);
-            this.button15.TabIndex = 1;
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button16.Location = new System.Drawing.Point(65, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(25, 23);
-            this.button16.TabIndex = 2;
-            this.button16.UseVisualStyleBackColor = true;
             // 
             // cmbGermany
             // 
@@ -1231,51 +938,10 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbGermany.Location = new System.Drawing.Point(268, 301);
+            this.cmbGermany.Location = new System.Drawing.Point(290, 301);
             this.cmbGermany.Name = "cmbGermany";
             this.cmbGermany.Size = new System.Drawing.Size(121, 21);
             this.cmbGermany.TabIndex = 64;
-            // 
-            // flowLayoutPanel4
-            // 
-            this.flowLayoutPanel4.Controls.Add(this.button11);
-            this.flowLayoutPanel4.Controls.Add(this.button12);
-            this.flowLayoutPanel4.Controls.Add(this.button13);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(167, 112);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel4.TabIndex = 58;
-            // 
-            // button11
-            // 
-            this.button11.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.Location = new System.Drawing.Point(3, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(25, 23);
-            this.button11.TabIndex = 0;
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button12.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.Location = new System.Drawing.Point(34, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(25, 23);
-            this.button12.TabIndex = 1;
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button13.Location = new System.Drawing.Point(65, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(25, 23);
-            this.button13.TabIndex = 2;
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // cmbFrance
             // 
@@ -1285,7 +951,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbFrance.Location = new System.Drawing.Point(268, 274);
+            this.cmbFrance.Location = new System.Drawing.Point(290, 274);
             this.cmbFrance.Name = "cmbFrance";
             this.cmbFrance.Size = new System.Drawing.Size(121, 21);
             this.cmbFrance.TabIndex = 63;
@@ -1310,7 +976,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbFinland.Location = new System.Drawing.Point(268, 247);
+            this.cmbFinland.Location = new System.Drawing.Point(290, 247);
             this.cmbFinland.Name = "cmbFinland";
             this.cmbFinland.Size = new System.Drawing.Size(121, 21);
             this.cmbFinland.TabIndex = 62;
@@ -1335,7 +1001,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbEstonia.Location = new System.Drawing.Point(268, 220);
+            this.cmbEstonia.Location = new System.Drawing.Point(290, 220);
             this.cmbEstonia.Name = "cmbEstonia";
             this.cmbEstonia.Size = new System.Drawing.Size(121, 21);
             this.cmbEstonia.TabIndex = 61;
@@ -1360,7 +1026,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbDenmark.Location = new System.Drawing.Point(268, 193);
+            this.cmbDenmark.Location = new System.Drawing.Point(290, 193);
             this.cmbDenmark.Name = "cmbDenmark";
             this.cmbDenmark.Size = new System.Drawing.Size(121, 21);
             this.cmbDenmark.TabIndex = 60;
@@ -1887,134 +1553,10 @@
             this.pbSweden.TabIndex = 53;
             this.pbSweden.TabStop = false;
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(167, 31);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel1.TabIndex = 56;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(3, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(25, 23);
-            this.button2.TabIndex = 0;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button3.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(34, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 23);
-            this.button3.TabIndex = 1;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Location = new System.Drawing.Point(65, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(25, 23);
-            this.button4.TabIndex = 2;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Controls.Add(this.button5);
-            this.flowLayoutPanel2.Controls.Add(this.button6);
-            this.flowLayoutPanel2.Controls.Add(this.button7);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(167, 58);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel2.TabIndex = 57;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Location = new System.Drawing.Point(3, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(25, 23);
-            this.button5.TabIndex = 0;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button6.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Location = new System.Drawing.Point(34, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(25, 23);
-            this.button6.TabIndex = 1;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Location = new System.Drawing.Point(65, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(25, 23);
-            this.button7.TabIndex = 2;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Controls.Add(this.button8);
-            this.flowLayoutPanel3.Controls.Add(this.button9);
-            this.flowLayoutPanel3.Controls.Add(this.button10);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(167, 85);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(94, 20);
-            this.flowLayoutPanel3.TabIndex = 58;
-            // 
-            // button8
-            // 
-            this.button8.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.red_removebg_preview;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Location = new System.Drawing.Point(3, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(25, 23);
-            this.button8.TabIndex = 0;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button9.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.blue;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Location = new System.Drawing.Point(34, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(25, 23);
-            this.button9.TabIndex = 1;
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.BackgroundImage = global::Eu_Vote_Calc.Properties.Resources.abstain_removebg_preview;
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.Location = new System.Drawing.Point(65, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(25, 23);
-            this.button10.TabIndex = 2;
-            this.button10.UseVisualStyleBackColor = true;
-            // 
             // lblBelgium
             // 
             this.lblBelgium.AutoSize = true;
-            this.lblBelgium.Location = new System.Drawing.Point(66, 55);
+            this.lblBelgium.Location = new System.Drawing.Point(84, 55);
             this.lblBelgium.Name = "lblBelgium";
             this.lblBelgium.Size = new System.Drawing.Size(9, 13);
             this.lblBelgium.TabIndex = 55;
@@ -2028,7 +1570,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbAustria.Location = new System.Drawing.Point(268, 31);
+            this.cmbAustria.Location = new System.Drawing.Point(290, 31);
             this.cmbAustria.Name = "cmbAustria";
             this.cmbAustria.Size = new System.Drawing.Size(121, 21);
             this.cmbAustria.TabIndex = 59;
@@ -2042,7 +1584,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbBelgium.Location = new System.Drawing.Point(268, 58);
+            this.cmbBelgium.Location = new System.Drawing.Point(290, 58);
             this.cmbBelgium.Name = "cmbBelgium";
             this.cmbBelgium.Size = new System.Drawing.Size(121, 21);
             this.cmbBelgium.TabIndex = 60;
@@ -2055,7 +1597,7 @@
             "Abstain",
             "No",
             "Yes"});
-            this.cmbSpain.Location = new System.Drawing.Point(268, 706);
+            this.cmbSpain.Location = new System.Drawing.Point(290, 706);
             this.cmbSpain.Name = "cmbSpain";
             this.cmbSpain.Size = new System.Drawing.Size(121, 21);
             this.cmbSpain.TabIndex = 60;
@@ -2063,7 +1605,7 @@
             // lblAustria
             // 
             this.lblAustria.AutoSize = true;
-            this.lblAustria.Location = new System.Drawing.Point(66, 28);
+            this.lblAustria.Location = new System.Drawing.Point(84, 28);
             this.lblAustria.Name = "lblAustria";
             this.lblAustria.Size = new System.Drawing.Size(9, 13);
             this.lblAustria.TabIndex = 54;
@@ -2166,7 +1708,7 @@
             this.tableLayoutPanel2.SetColumnSpan(this.tableLayoutPanel3, 3);
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 510F));
-            this.tableLayoutPanel3.Controls.Add(this.label27, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.lblTotalAmountVoting, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.label28, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.lblVoteRule, 1, 1);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(25, 0);
@@ -2178,18 +1720,18 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(600, 59);
             this.tableLayoutPanel3.TabIndex = 2;
             // 
-            // label27
+            // lblTotalAmountVoting
             // 
-            this.label27.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(3, 2);
-            this.label27.Name = "label27";
-            this.tableLayoutPanel3.SetRowSpan(this.label27, 2);
-            this.label27.Size = new System.Drawing.Size(78, 55);
-            this.label27.TabIndex = 0;
-            this.label27.Text = "27";
+            this.lblTotalAmountVoting.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lblTotalAmountVoting.AutoSize = true;
+            this.lblTotalAmountVoting.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.lblTotalAmountVoting.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalAmountVoting.Location = new System.Drawing.Point(3, 2);
+            this.lblTotalAmountVoting.Name = "lblTotalAmountVoting";
+            this.tableLayoutPanel3.SetRowSpan(this.lblTotalAmountVoting, 2);
+            this.lblTotalAmountVoting.Size = new System.Drawing.Size(78, 55);
+            this.lblTotalAmountVoting.TabIndex = 0;
+            this.lblTotalAmountVoting.Text = "27";
             // 
             // label28
             // 
@@ -2435,11 +1977,281 @@
             this.label42.TabIndex = 9;
             this.label42.Text = "final result";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(176, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "label1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(176, 55);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "label2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(176, 82);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "label3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(176, 109);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "label4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(176, 136);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(176, 163);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(176, 190);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "label7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(176, 217);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.TabIndex = 12;
+            this.label8.Text = "label8";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(176, 244);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(35, 13);
+            this.label9.TabIndex = 13;
+            this.label9.Text = "label9";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(176, 271);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(41, 13);
+            this.label10.TabIndex = 14;
+            this.label10.Text = "label10";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(176, 298);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(41, 13);
+            this.label11.TabIndex = 15;
+            this.label11.Text = "label11";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(176, 325);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(41, 13);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "label12";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(176, 352);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(41, 13);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "label13";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(176, 379);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(41, 13);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "label14";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(176, 406);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(41, 13);
+            this.label15.TabIndex = 11;
+            this.label15.Text = "label15";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(176, 433);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(41, 13);
+            this.label16.TabIndex = 12;
+            this.label16.Text = "label16";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(176, 460);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(41, 13);
+            this.label17.TabIndex = 13;
+            this.label17.Text = "label17";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(176, 487);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(41, 13);
+            this.label18.TabIndex = 14;
+            this.label18.Text = "label18";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(176, 514);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(41, 13);
+            this.label19.TabIndex = 15;
+            this.label19.Text = "label19";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(176, 541);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(41, 13);
+            this.label20.TabIndex = 16;
+            this.label20.Text = "label20";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(176, 568);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(41, 13);
+            this.label21.TabIndex = 17;
+            this.label21.Text = "label21";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(176, 595);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 18;
+            this.label22.Text = "label22";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(176, 622);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(41, 13);
+            this.label23.TabIndex = 19;
+            this.label23.Text = "label23";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(176, 649);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(41, 13);
+            this.label24.TabIndex = 20;
+            this.label24.Text = "label24";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(176, 676);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(41, 13);
+            this.label25.TabIndex = 21;
+            this.label25.Text = "label25";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(176, 703);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(41, 13);
+            this.label26.TabIndex = 22;
+            this.label26.Text = "label26";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(176, 730);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(41, 13);
+            this.label27.TabIndex = 23;
+            this.label27.Text = "label27";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(176, 1);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(57, 13);
+            this.label29.TabIndex = 10;
+            this.label29.Text = "Population";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(84, 1);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(35, 13);
+            this.label34.TabIndex = 10;
+            this.label34.Text = "Name";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(290, 1);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(29, 13);
+            this.label35.TabIndex = 79;
+            this.label35.Text = "Vote";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1196, 749);
+            this.ClientSize = new System.Drawing.Size(1196, 782);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.pictureBox34);
             this.Controls.Add(this.label41);
@@ -2454,14 +2266,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            this.flowLayoutPanel11.ResumeLayout(false);
-            this.flowLayoutPanel10.ResumeLayout(false);
-            this.flowLayoutPanel9.ResumeLayout(false);
-            this.flowLayoutPanel8.ResumeLayout(false);
-            this.flowLayoutPanel7.ResumeLayout(false);
-            this.flowLayoutPanel6.ResumeLayout(false);
-            this.flowLayoutPanel5.ResumeLayout(false);
-            this.flowLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbAustria)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBelgium)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBulgaria)).EndInit();
@@ -2489,9 +2293,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbSlovenia)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSpain)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSweden)).EndInit();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
@@ -2573,50 +2374,6 @@
         private System.Windows.Forms.PictureBox pbSweden;
         private System.Windows.Forms.Label lblAustria;
         private System.Windows.Forms.Label lblBelgium;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel11;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel10;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel9;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel8;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel7;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel6;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.ComboBox cmbAustria;
         private System.Windows.Forms.ComboBox cmbSweden;
         private System.Windows.Forms.ComboBox cmbSlovenia;
@@ -2675,7 +2432,7 @@
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lblTotalAmountVoting;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label lblVoteRule;
         private System.Windows.Forms.Label label30;
@@ -2699,6 +2456,36 @@
         private System.Windows.Forms.PictureBox pictureBox34;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label35;
     }
 }
 

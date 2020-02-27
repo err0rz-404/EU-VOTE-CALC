@@ -20,9 +20,11 @@ namespace Eu_Vote_Calc
     {
         private Timer timer1;
         public List<CheckBox> chkCountriesList = new List<CheckBox>();//making them all together
-        List<Countries> countri = new List<Countries>();
-        List<ComboBox> cmbCountriesList = new List<ComboBox>();
-        List<Label> lblCountries = new List<Label>();
+        List<Countries> countri = new List<Countries>();//used to hold all the country classes
+        List<ComboBox> cmbCountriesList = new List<ComboBox>();//used to hold all countries votes
+        List<Label> lblCountries = new List<Label>();//used to output all countries names
+        List<Label> lblCountriesPopulation = new List<Label>();//used to output all the countries population
+
         [Serializable]
         class Countries
         {
@@ -144,6 +146,35 @@ namespace Eu_Vote_Calc
             lblCountries.Add(lblSpain);
             lblCountries.Add(lblSweden);
 
+            //adding all the labels into a list to contain the population
+            lblCountriesPopulation.Add(label1);
+            lblCountriesPopulation.Add(label2);
+            lblCountriesPopulation.Add(label3);
+            lblCountriesPopulation.Add(label4);
+            lblCountriesPopulation.Add(label5);
+            lblCountriesPopulation.Add(label6); 
+            lblCountriesPopulation.Add(label7);
+            lblCountriesPopulation.Add(label8);
+            lblCountriesPopulation.Add(label9);
+            lblCountriesPopulation.Add(label10);
+            lblCountriesPopulation.Add(label11);
+            lblCountriesPopulation.Add(label12); 
+            lblCountriesPopulation.Add(label13);
+            lblCountriesPopulation.Add(label14);
+            lblCountriesPopulation.Add(label15);
+            lblCountriesPopulation.Add(label16);
+            lblCountriesPopulation.Add(label17);
+            lblCountriesPopulation.Add(label18);
+            lblCountriesPopulation.Add(label19);
+            lblCountriesPopulation.Add(label20);
+            lblCountriesPopulation.Add(label21);
+            lblCountriesPopulation.Add(label22);
+            lblCountriesPopulation.Add(label23);
+            lblCountriesPopulation.Add(label24);
+            lblCountriesPopulation.Add(label25);
+            lblCountriesPopulation.Add(label26);
+            lblCountriesPopulation.Add(label27);
+
             //adding all the comboboxes into a list to have them all bunched
             cmbCountriesList.Add(cmbAustria);
             cmbCountriesList.Add(cmbBelgium);
@@ -175,7 +206,8 @@ namespace Eu_Vote_Calc
 
             for (int i = 0; i < cmbCountriesList.Count; i++)//setting all the loaded votes to yes by default
             {
-                lblCountries[i].Text = countri[i].printName();
+                lblCountries[i].Text = countri[i].printName();//printing outputting all the names
+                lblCountriesPopulation[i].Text = countri[i].printPopulation().ToString();
                 cmbCountriesList[i].SelectedIndex = countri[i].Vote - 1;
             }
         }
@@ -284,7 +316,7 @@ namespace Eu_Vote_Calc
             {
                 CMBVoteType.SelectedIndex = 0;
             }
-            label27.Text = (TotalCountries).ToString();
+            lblTotalAmountVoting.Text = (TotalCountries).ToString();
             float yes;
             float no;
             float abs;
