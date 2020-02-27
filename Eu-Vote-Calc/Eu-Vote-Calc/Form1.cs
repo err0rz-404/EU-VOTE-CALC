@@ -77,30 +77,30 @@ namespace Eu_Vote_Calc
             chkCountriesList.Add(chkAustria);
             chkCountriesList.Add(chkBelgium);
             chkCountriesList.Add(chkBulgaria);
-            chkCountriesList.Add(chkCrotia);
+            chkCountriesList.Add(chkCroatia);
             chkCountriesList.Add(chkCyprus);
             chkCountriesList.Add(chkCzech_Republic);
             chkCountriesList.Add(chkEstonia);
             chkCountriesList.Add(chkDenmark);
             chkCountriesList.Add(chkFinland);
             chkCountriesList.Add(chkFrance);
-            chkCountriesList.Add(checkBox10);
-            chkCountriesList.Add(checkBox11);
-            chkCountriesList.Add(checkBox12);
-            chkCountriesList.Add(checkBox13);
-            chkCountriesList.Add(checkBox14);
-            chkCountriesList.Add(checkBox15);
-            chkCountriesList.Add(checkBox16);
-            chkCountriesList.Add(checkBox17);
-            chkCountriesList.Add(checkBox18);
-            chkCountriesList.Add(checkBox19);
-            chkCountriesList.Add(checkBox20);
-            chkCountriesList.Add(checkBox21);
-            chkCountriesList.Add(checkBox22);
-            chkCountriesList.Add(checkBox23);
-            chkCountriesList.Add(checkBox24);
-            chkCountriesList.Add(checkBox25);
-            chkCountriesList.Add(checkBox26);
+            chkCountriesList.Add(chkGermany);
+            chkCountriesList.Add(chkGreece);
+            chkCountriesList.Add(chkHungary);
+            chkCountriesList.Add(chkIreland);
+            chkCountriesList.Add(chkItaly);
+            chkCountriesList.Add(chkLatvia);
+            chkCountriesList.Add(chkLithuania);
+            chkCountriesList.Add(chkLuxembourg);
+            chkCountriesList.Add(chkMalta);
+            chkCountriesList.Add(chkNetherlands);
+            chkCountriesList.Add(chkPoland);
+            chkCountriesList.Add(chkPortugal);
+            chkCountriesList.Add(chkRomania);
+            chkCountriesList.Add(chkSlovakia);
+            chkCountriesList.Add(chkSlovenia);
+            chkCountriesList.Add(chkSpain);
+            chkCountriesList.Add(chkSweden);
 
             int x = 0;
             while (x < 27)
@@ -116,33 +116,33 @@ namespace Eu_Vote_Calc
             }
 
             //adding all the labels into a list to have them all bunched
-            lblCountries.Add(lbl);
-            lblCountries.Add(label1);
-            lblCountries.Add(label2);
-            lblCountries.Add(label3);
-            lblCountries.Add(label4);
-            lblCountries.Add(label5);
-            lblCountries.Add(label6);
-            lblCountries.Add(label7);
-            lblCountries.Add(label8);
-            lblCountries.Add(label9);
-            lblCountries.Add(label10);
-            lblCountries.Add(label11);
-            lblCountries.Add(label12);
-            lblCountries.Add(label13);
-            lblCountries.Add(label14);
-            lblCountries.Add(label15);
-            lblCountries.Add(label16);
-            lblCountries.Add(label17);
-            lblCountries.Add(label18);
-            lblCountries.Add(label19);
-            lblCountries.Add(label20);
-            lblCountries.Add(label21);
-            lblCountries.Add(label22);
-            lblCountries.Add(label23);
-            lblCountries.Add(label24);
-            lblCountries.Add(label25);
-            lblCountries.Add(label26);
+            lblCountries.Add(lblAustria);
+            lblCountries.Add(lblBulgaria);
+            lblCountries.Add(lblBelgium);
+            lblCountries.Add(lblCroatia);
+            lblCountries.Add(lblCyprus);
+            lblCountries.Add(lblCzech_Republic);
+            lblCountries.Add(lblDenmark);
+            lblCountries.Add(lblEstonia);
+            lblCountries.Add(lblFinland);
+            lblCountries.Add(lblFrance);
+            lblCountries.Add(lblGermany);
+            lblCountries.Add(lblGreece);
+            lblCountries.Add(lblHungary);
+            lblCountries.Add(lblIreland);
+            lblCountries.Add(lblItaly);
+            lblCountries.Add(lblLatvia);
+            lblCountries.Add(lblLithuania);
+            lblCountries.Add(lblMalta);
+            lblCountries.Add(lblLuxembourg);
+            lblCountries.Add(lblNetherlands);
+            lblCountries.Add(lblPoland);
+            lblCountries.Add(lblPortugal);
+            lblCountries.Add(lblRomania);
+            lblCountries.Add(lblSlovakia);
+            lblCountries.Add(lblSlovenia);
+            lblCountries.Add(lblSpain);
+            lblCountries.Add(lblSweden);
 
             //adding all the comboboxes into a list to have them all bunched
             cmbCountriesList.Add(cmbAustria);
@@ -257,27 +257,27 @@ namespace Eu_Vote_Calc
             if (CMBVoteType.SelectedIndex == 0)
             {
                 votetype = 1;
-                label29.Text = ("minimum 'yes' requrited for adoption: (55%) " + ((int)(TotalCountries * 0.55f)).ToString());
-                label34.Text = "Minimum “Yes” required for adoption: 65%";
+                lblVoteRule.Text = ("minimum 'yes' requrited for adoption: (55%) " + ((int)(TotalCountries * 0.55f)).ToString());
+                lblPopulationRule.Text = "Minimum “Yes” required for adoption: 65%";
             }
             else if (CMBVoteType.SelectedIndex == 1)
             {
                 votetype = 2;
-                label29.Text = ("minimum 'yes' requrited for adoption: (72%) " + ((int)(TotalCountries * 0.72f)).ToString());
-                label34.Text = "Minimum “Yes” required for adoption: 65%";
+                lblVoteRule.Text = ("minimum 'yes' requrited for adoption: (72%) " + ((int)(TotalCountries * 0.72f)).ToString());
+                lblPopulationRule.Text = "Minimum “Yes” required for adoption: 65%";
             }
             else if (CMBVoteType.SelectedIndex == 2)
             {
                 votetype = 3;
-                label29.Text = ("minimum 'yes' requrited for adoption: (50%) " + ((int)(TotalCountries * 0.50f)).ToString());
-                label34.Text = "Minimum “Yes” required for adoption: 0%";
+                lblVoteRule.Text = ("minimum 'yes' requrited for adoption: (50%) " + ((int)(TotalCountries * 0.50f)).ToString());
+                lblPopulationRule.Text = "Minimum “Yes” required for adoption: 0%";
             }
             else if (CMBVoteType.SelectedIndex == 3)
             {
                 votetype = 4;
 
-                label29.Text = ("minimum 'yes' requrited for adoption: (100%) " + ((int)(TotalCountries * 1.0f)).ToString());
-                label34.Text = "Minimum “Yes” required for adoption: %";
+                lblVoteRule.Text = ("minimum 'yes' requrited for adoption: (100%) " + ((int)(TotalCountries * 1.0f)).ToString());
+                lblPopulationRule.Text = "Minimum “Yes” required for adoption: %";
 
             }
             else
@@ -305,12 +305,12 @@ namespace Eu_Vote_Calc
             pictureBox31.Width = (int)(yesper * 6);
             pictureBox32.Width = (int)(noper * 6);
             pictureBox33.Width = (int)(absper * 6);
-            label35.Text = yesCountries.ToString();
-            label36.Text = noCountries.ToString();
-            label37.Text = absCountries.ToString();
-            label38.Text = yesper.ToString("0.##");
-            label39.Text = noper.ToString("0.##");
-            label40.Text = absper.ToString("0.##");
+            lblVoteYes.Text = yesCountries.ToString();
+            lblVoteNo.Text = noCountries.ToString();
+            lblVoteAbstain.Text = absCountries.ToString();
+            lblPopYes.Text = yesper.ToString("0.##");
+            lblPopNo.Text = noper.ToString("0.##");
+            lblPopAbstain.Text = absper.ToString("0.##");
             result((int)yes, (int)yesper, votetype);
         }
         public void result(int yes, int yespop,int vote){
