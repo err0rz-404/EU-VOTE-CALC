@@ -213,6 +213,16 @@ namespace Eu_Vote_Calc.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Green_Arrow_Top_512 {
+            get {
+                object obj = ResourceManager.GetObject("Green_Arrow_Top-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hungary {
             get {
                 object obj = ResourceManager.GetObject("Hungary", resourceCulture);
@@ -306,6 +316,16 @@ namespace Eu_Vote_Calc.Properties {
         internal static System.Drawing.Bitmap Portugal {
             get {
                 object obj = ResourceManager.GetObject("Portugal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Red_Arrow_Down_512 {
+            get {
+                object obj = ResourceManager.GetObject("Red_Arrow_Down-512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

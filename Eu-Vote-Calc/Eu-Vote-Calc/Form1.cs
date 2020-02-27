@@ -96,6 +96,7 @@ namespace Eu_Vote_Calc
             chkCountriesList.Add(checkBox19);
             chkCountriesList.Add(checkBox20);
             chkCountriesList.Add(checkBox21);
+            chkCountriesList.Add(checkBox22);
             chkCountriesList.Add(checkBox23);
             chkCountriesList.Add(checkBox24);
             chkCountriesList.Add(checkBox25);
@@ -183,7 +184,7 @@ namespace Eu_Vote_Calc
         {
             int canVoteAmount = 0;//allows for all them to be in one number
             //if they can vote the combo box isnt disabled 
-            for (int i = 0; i < 26; i++)//looping through all the countries
+            for (int i = 0; i < 27; i++)//looping through all the countries
             {
                 countri[i].changePart(chkCountriesList[i].Checked);//allowing for the form to not allow certain countries to vote
                 if (chkCountriesList[i].Checked == true)//if it they can vote
@@ -200,7 +201,7 @@ namespace Eu_Vote_Calc
 
         private void changeVote(object sender, EventArgs e)
         {
-            for (int i = 0; i < 26; i++)//getting their votes
+            for (int i = 0; i < 27; i++)//getting their votes
             {
                 //changing the class value in method to say what each country vote is
                 if (cmbCountriesList[i].Text == "Yes")//1 is yes
@@ -224,68 +225,151 @@ namespace Eu_Vote_Calc
             int noCountries = 0;
             int absCountries = 0;
             int votetype = 1;
-            for (int i = 0; i < 26; i++)
+            int population = 0;
+            int popfor = 0;
+            int popagainst = 0;
+            int popabstain = 0;
+            for (int i = 0; i < 27; i++)
             {
+                
                 //check to see if they can vote
-                if (chkCountriesList[i].Checked == true )
+                if (chkCountriesList[i].Checked == true)
                 {
+                    population = population + countri[i].printPopulation();
                     TotalCountries++;
                     if (cmbCountriesList[i].Text == "Yes")
                     {
                         yesCountries++;
+                        popfor = popfor + countri[i].printPopulation();
                     }
                     else if (cmbCountriesList[i].Text == "No")
                     {
                         noCountries++;
+                        popagainst = popagainst + countri[i].printPopulation();
                     }
                     else
                     {
                         absCountries++;
+                        popabstain = popabstain + countri[i].printPopulation();
                     }
                 }
             }
-            if(CMBVoteType.SelectedIndex == 0)
+            if (CMBVoteType.SelectedIndex == 0)
             {
                 votetype = 1;
+                label29.Text = ("minimum 'yes' requrited for adoption: (55%) " + ((int)(TotalCountries * 0.55f)).ToString());
+                label34.Text = "Minimum “Yes” required for adoption: 65%";
             }
             else if (CMBVoteType.SelectedIndex == 1)
             {
                 votetype = 2;
+                label29.Text = ("minimum 'yes' requrited for adoption: (72%) " + ((int)(TotalCountries * 0.72f)).ToString());
+                label34.Text = "Minimum “Yes” required for adoption: 65%";
             }
             else if (CMBVoteType.SelectedIndex == 2)
             {
                 votetype = 3;
+                label29.Text = ("minimum 'yes' requrited for adoption: (50%) " + ((int)(TotalCountries * 0.50f)).ToString());
+                label34.Text = "Minimum “Yes” required for adoption: 0%";
             }
             else if (CMBVoteType.SelectedIndex == 3)
             {
                 votetype = 4;
+
+                label29.Text = ("minimum 'yes' requrited for adoption: (100%) " + ((int)(TotalCountries * 1.0f)).ToString());
+                label34.Text = "Minimum “Yes” required for adoption: %";
+
             }
             else
             {
                 CMBVoteType.SelectedIndex = 0;
             }
-            label27.Text = (TotalCountries+1).ToString();
+            label27.Text = (TotalCountries).ToString();
             float yes;
             float no;
             float abs;
-            float total = (TotalCountries+1) * 1.0f;
+            float yesper;
+            float noper;
+            float absper;
+            float totalper = population * 1.0f;
+            float total = (TotalCountries) * 1.0f;
             yes = (yesCountries / total) * 100;
             no = (noCountries / total) * 100;
             abs = (absCountries / total) * 100;// comments to 100
+            yesper = (popfor / totalper)*100;
+            noper = (popagainst / totalper)*100;
+            absper = (popabstain/totalper)*100;
             pictureBox28.Width = (int)(yes * 6);
             pictureBox29.Width = (int)(no * 6);
             pictureBox30.Width = (int)(abs * 6);
+            pictureBox31.Width = (int)(yesper * 6);
+            pictureBox32.Width = (int)(noper * 6);
+            pictureBox33.Width = (int)(absper * 6);
+            label35.Text = yesCountries.ToString();
+            label36.Text = noCountries.ToString();
+            label37.Text = absCountries.ToString();
+            label38.Text = yesper.ToString("0.##");
+            label39.Text = noper.ToString("0.##");
+            label40.Text = absper.ToString("0.##");
+            result((int)yes, (int)yesper, votetype);
         }
-        }
+        public void result(int yes, int yespop,int vote){
+            Console.WriteLine(yes);
+          switch (vote)
+            {
+                case 1:
+                    if((yes>55 & yespop > 65))
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Green_Arrow_Top_512;
+                        label42.Text = "Approved";
+                    }
+                    else
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Red_Arrow_Down_512;
+                        label42.Text = "Rejected";
+                    }
+                    break;
 
-        private void pictureBox28_Click(object sender, EventArgs e)
-        {
+                case 2:
+                    if ((yes > 72 & yespop > 65))
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Green_Arrow_Top_512;
+                        label42.Text = "Approved";
+                    }
+                    else
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Red_Arrow_Down_512;
+                        label42.Text = "Rejected";
+                    }
+                    break;
 
-        }
+                case 3:
+                    if ((yes > 50 & yespop > 0))
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Green_Arrow_Top_512;
+                        label42.Text = "Approved";
+                    }
+                    else
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Red_Arrow_Down_512;
+                        label42.Text = "Rejected";
+                    }
+                    break;
 
-        private void label29_Click(object sender, EventArgs e)
-        {
-
+                case 4:
+                    Console.WriteLine("testing");
+                    if ((yes >100 & yespop > 0))
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Green_Arrow_Top_512;
+                        label42.Text = "Approved";
+                    }
+                    else
+                    {
+                        pictureBox34.Image = Eu_Vote_Calc.Properties.Resources.Red_Arrow_Down_512;
+                        label42.Text = "Rejected";
+                    }
+                    break;
+            }
         }
     }
 }

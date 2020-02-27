@@ -167,6 +167,8 @@
   <ItemGroup>
     <Content Include="Imgs\Arrow\abstain-removebg-preview.png" />
     <Content Include="Imgs\Arrow\blue.png" />
+    <None Include="Imgs\Arrow\Red_Arrow_Down-512.png" />
+    <None Include="Imgs\Arrow\Green_Arrow_Top-512.png" />
     <Content Include="Imgs\Arrow\red-removebg-preview.png" />
     <None Include="Resources\upvote.png" />
   </ItemGroup>
